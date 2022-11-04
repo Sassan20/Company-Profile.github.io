@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <style>
+      footer {
+        padding-top: 30px;
+        text-align: center;
+        background-color: rgba(204, 203, 203, 0.849);
+      }
+
+      .teks {
+        grid-area: teks;
+      }
+
+      .teks h1,
+      h3 {
+        font-weight: normal;
+      }
+
+      .nav-footer {
+        grid-area: nav;
+        margin: 60px;
+      }
+
+      .btn {
+        grid-area: teks;
+        margin-top: 20px;
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(125, 125, 126);
+        color: white;
+        font-size: 30px;
+      }
+
+      .copyright {
+        padding: 70px 130px;
+        font-family: monospace;
+      }
+
+      .sosmed {
+        grid-area: sosmed;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 150px;
+      }
+
+      .list-sosmed {
+        display: flex;
+        list-style-type: none;
+      }
+
+      .list-sosmed li {
+        padding: 10px 20px;
+      }
+
+      .list-sosmed li:hover {
+        cursor: pointer;
+      }
+      @media screen and (max-width: 767px) {
+        .cards {
+          display: flex;
+          flex-direction: column;
+        }
+        .card-body {
+          width: 24rem;
+        }
+        .text-footer {
+          display: flex;
+          flex-direction: column;
+        }
+        .list-sosmed li {
+          width: 75px;
+          height: 75px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div
+            style="
+              height: 550px;
+              background-image: url(./Image/images3.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+            class="d-block w-100"
+          >
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">APIK TECHNOLOGY</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  style="margin-left: 750px"
+                  id="navbarNav"
+                >
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >Client</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >Services</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <div class="p-5 text-center">
+              <h1 style="color: white">KAMI APIK TECHNOLOGY</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            style="
+              height: 550px;
+              background-image: url(./Image/images4.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+            class="d-block w-100"
+          >
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">APIK TECHNOLOGY</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  style="margin-left: 750px"
+                  id="navbarNav"
+                >
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >Client</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >Services</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <div class="p-5">
+              <h1 style="color: white">KAMI KONSULTAN IT.</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            style="
+              height: 550px;
+              background-image: url(./Image/keyboard6.jpg);
+              background-size: cover;
+              background-position: center;
+            "
+            class="d-block w-100"
+          >
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">APIK TECHNOLOGY</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  style="margin-left: 750px"
+                  id="navbarNav"
+                >
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >Client</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >Services</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <div class="p-5">
+              <h1 style="color: white">KAMI KONSULTAN BISNIS</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <header class="text-center p-3"><h1>Our Services</h1></header>
+
+    <div class="container p-1">
+      <nav class="cards d-flex justify-content-around w-100">
+        <div class="p-5 w-50">
+          <div class="card" style="max-width: 18rem; border: none;">
+            <div class="card-body" style="background-color: rgba(179, 174, 174, 0.178); max-width: 24rem;">
+              <img
+                class="w-25 h-25"
+                style="padding-top: 40px"
+                src="./Assets/display.svg"
+                alt=""
+              />
+              <h5 class="card-text" style="padding-top: 8px">
+                IT Support
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="p-5 w-50">
+          <div class="card" style="max-width: 18rem; border: none; border-radius: 0;">
+            <div class="card-body" style="background-color: rgba(179, 174, 174, 0.178); max-width: 24rem;">
+              <img
+                class="w-25 h-25"
+                style="padding-top: 40px"
+                src="./Assets/airplayvideo.svg"
+                alt=""
+              />
+              <h5 class="card-text" style="padding-top: 8px">
+                Developer
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="p-5 w-50">
+          <div class="card" style="max-width: 18rem; border: none;">
+            <div class="card-body" style="background-color: rgba(179, 174, 174, 0.178); max-width: 24rem;">
+              <img
+                class="w-25 h-25"
+                style="padding-top: 40px"
+                src="./Assets/laptop.svg"
+                alt=""
+              />
+              <h5 class="card-text" style="padding-top: 8px">
+                Konsultan Bisnis
+              </h5>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <footer>
+      <div class="teks">
+        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+      </div>
+      <div class="text-footer w-100 h-100 d-flex">
+        <h6 class="p-3 w-100">
+          copyright©2022 Apik Technologi.All Rights Reserved
+        </h6>
+        <div class="sosmed d-flex justify-content-around p-2">
+          <ul class="list-sosmed d-flex justify-content-between">
+            <li>
+              <a href="https://github.com/sanas290220"
+                ><img class="w-100 h-50" src="./Assets/github.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/sanas290220/">
+                <img class="w-100 h-50" src="./Assets/instagram.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=6281373543258">
+                <img class="w-100 h-50" src="./Assets/whatsapp.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/sanas290220">
+                <img class="w-100 h-50" src="./Assets/facebook.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/SandiAr84528710"
+                ><img class="w-100 h-50" src="./Assets/twitter.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UC0qnH_FyBsV7LI9zXcRxIYw"
+              >
+                <img class="w-100 h-50" src="./Assets/youtube.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const myCarouselElement = document.querySelector("#myCarousel");
+      const carousel = new bootstrap.Carousel(myCarouselElement, {
+        interval: 500,
+        wrap: false,
+      });
+    </script>
+  </body>
+</html>
