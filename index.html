@@ -11,10 +11,12 @@
       crossorigin="anonymous"
     />
     <style>
+      body{
+        background-color: #fafafa;
+      }
       footer {
         padding-top: 30px;
-        text-align: center;
-        background-color: rgba(204, 203, 203, 0.486);
+        background-color: #cfe0e8;
       }
 
       .sosmed {
@@ -24,15 +26,22 @@
         padding-right: 150px;
       }
 
+      .list-sosmed a {
+        width: 45px;
+        height: 45px;
+        padding: 5px;
+        margin-left: 20px;
+      }
+
       .list-sosmed {
+        padding-left: 130px;
         list-style-type: none;
+        transition: 0.5s;
       }
 
-      .list-sosmed li {
-        padding: 10px 20px;
-      }
-
-      .list-sosmed li:hover {
+      .list-sosmed a:hover {
+        border: dashed 3px whitesmoke;
+        border-radius: 50%;
         cursor: pointer;
       }
       @media (max-width: 500px) {
@@ -47,10 +56,11 @@
           display: flex;
           flex-direction: column;
         }
-        .list-sosmed a {
-          padding-right: 20px;
-          width: 60px;
-          height: 50px;
+
+        .list-sosmed a:hover {
+          border: dashed 3px whitesmoke;
+          border-radius: 50%;
+          cursor: pointer;
         }
       }
     </style>
@@ -125,7 +135,9 @@
               </div>
             </nav>
             <div class="p-5 text-center">
-              <h1 style="color: white">KAMI APIK TECHNOLOGY</h1>
+              <h1 style="color: white; text-shadow: 1px 2px 2px black">
+                KAMI APIK TECHNOLOGY
+              </h1>
             </div>
           </div>
         </div>
@@ -192,7 +204,9 @@
               </div>
             </nav>
             <div class="p-5">
-              <h1 style="color: white">KAMI KONSULTAN IT.</h1>
+              <h1 style="color: white; text-shadow: 1px 2px 2px black">
+                KAMI KONSULTAN IT.
+              </h1>
             </div>
           </div>
         </div>
@@ -259,35 +273,30 @@
               </div>
             </nav>
             <div class="p-5">
-              <h1 style="color: white">KAMI KONSULTAN BISNIS</h1>
+              <h1 style="color: white; text-shadow: 1px 2px 2px black">
+                KAMI KONSULTAN BISNIS
+              </h1>
             </div>
           </div>
         </div>
       </div>
-      <div
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
-      </div>
-      <div
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
-      </>
+      <div data-bs-target="#carouselExampleControls" data-bs-slide="prev"></div>
+      <div data-bs-target="#carouselExampleControls" data-bs-slide="next"></div>
     </div>
 
-    <header class="text-center p-3"><h1>Our Services</h1></header>
+    <header
+      class="text-center p-3"
+      style="color: #87bdd8; text-shadow: 2px 2px 2px white"
+    >
+      <h1>Our Services</h1>
+    </header>
 
     <div class="container p-1">
       <nav class="cards w-100 d-flex justify-content-xl-between">
         <div class="w-100 p-4">
           <div
             class="card"
-            style="
-              border: none;
-              background-color: rgba(179, 174, 174, 0.178);
-              padding: 10px;
-            "
+            style="border: none; background-color: #daebe8; padding: 10px"
           >
             <img
               class="w-25 h-25"
@@ -295,17 +304,22 @@
               src="./Assets/display.svg"
               alt=""
             />
-            <h5 class="card-text" style="padding-top: 8px">IT Support</h5>
+            <h5
+              class="card-text"
+              style="
+                padding-top: 8px;
+                color: #87bdd8;
+                text-shadow: 2px 2px 2px white;
+              "
+            >
+              IT Support
+            </h5>
           </div>
         </div>
         <div class="w-100 p-4">
           <div
             class="card"
-            style="
-              border: none;
-              background-color: rgba(179, 174, 174, 0.178);
-              padding: 10px;
-            "
+            style="border: none; background-color: #daebe8; padding: 10px"
           >
             <img
               class="w-25 h-25"
@@ -313,17 +327,22 @@
               src="./Assets/airplayvideo.svg"
               alt=""
             />
-            <h5 class="card-text" style="padding-top: 8px">Developer</h5>
+            <h5
+              class="card-text"
+              style="
+                padding-top: 8px;
+                color: #87bdd8;
+                text-shadow: 2px 2px 2px white;
+              "
+            >
+              Developer
+            </h5>
           </div>
         </div>
         <div class="w-100 p-4">
           <div
             class="card"
-            style="
-              border: none;
-              background-color: rgba(179, 174, 174, 0.178);
-              padding: 10px;
-            "
+            style="border: none; background-color: #daebe8; padding: 10px"
           >
             <img
               class="w-25 h-25"
@@ -331,41 +350,56 @@
               src="./Assets/laptop.svg"
               alt=""
             />
-            <h5 class="card-text" style="padding-top: 8px">Konsultan Bisnis</h5>
+            <h5
+              class="card-text"
+              style="
+                padding-top: 8px;
+                color: #87bdd8;
+                text-shadow: 2px 2px 2px white;
+              "
+            >
+              Konsultan Bisnis
+            </h5>
           </div>
         </div>
       </nav>
     </div>
 
     <footer class="w-100">
-      <div class="teks">
+      <div
+        class="text-center"
+        style="color: #87bdd8; text-shadow: 2px 2px 2px white"
+      >
         <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
       </div>
       <div class="text-footer w-100 h-100 d-flex">
-        <h6 class="p-3 w-100">
+        <h6
+          class="p-5 w-100"
+          style="color: #87bdd8; text-shadow: 2px 2px 2px white"
+        >
           copyright©2022 Apik Technologi.All Rights Reserved
         </h6>
-        <div class="sosmed d-flex justify-content-around p-2">
-          <ul class="list-sosmed d-flex justify-content-between">
+        <div class="sosmed d-flex justify-content-evenly">
+          <div class="list-sosmed d-flex justify-content-between">
             <a href="https://github.com/sanas290220"
-              ><img class="w-75 h-50" src="./Assets/github.svg" alt=""
+              ><img class="w-100 h-100" src="./Assets/github.svg" alt=""
             /></a>
             <a href="https://www.instagram.com/sanas290220/">
-              <img class="w-75 h-50" src="./Assets/instagram.svg" alt="" />
+              <img class="w-100 h-100" src="./Assets/instagram.svg" alt="" />
             </a>
             <a href="https://api.whatsapp.com/send?phone=6281373543258">
-              <img class="w-75 h-50" src="./Assets/whatsapp.svg" alt="" />
+              <img class="w-100 h-100" src="./Assets/whatsapp.svg" alt="" />
             </a>
             <a href="https://www.facebook.com/sanas290220">
-              <img class="w-75 h-50" src="./Assets/facebook.svg" alt="" />
+              <img class="w-100 h-100" src="./Assets/facebook.svg" alt="" />
             </a>
             <a href="https://twitter.com/SandiAr84528710"
-              ><img class="w-75 h-50" src="./Assets/twitter.svg" alt=""
+              ><img class="w-100 h-100" src="./Assets/twitter.svg" alt=""
             /></a>
             <a href="https://www.youtube.com/channel/UC0qnH_FyBsV7LI9zXcRxIYw">
-              <img class="w-75 h-50" src="./Assets/youtube.svg" alt=""
+              <img class="w-100 h-100" src="./Assets/youtube.svg" alt=""
             /></a>
-          </ul>
+          </div>
         </div>
       </div>
     </footer>
