@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <style>
-      body{
+      body {
         background-color: #fafafa;
       }
       footer {
@@ -34,8 +34,9 @@
       }
 
       .list-sosmed {
-        padding-left: 130px;
-        padding-top: 40px;
+        padding-left: 140px;
+        padding-top: 15px;
+        padding-bottom: 20px;
         list-style-type: none;
         transition: 0.5s;
       }
@@ -45,7 +46,10 @@
         border-radius: 50%;
         cursor: pointer;
       }
-      @media (max-width: 500px) {
+      .Account {
+        display: none;
+      }
+      @media (max-width: 480px) {
         .cards {
           display: flex;
           flex-direction: column;
@@ -58,10 +62,28 @@
           flex-direction: column;
         }
 
+        .list-sosmed a {
+          width: 35px;
+          height: 35px;
+        }
+
+        .list-sosmed {
+          padding-top: 0;
+          list-style-type: none;
+          transition: 0.5s;
+        }
+
         .list-sosmed a:hover {
           border: dashed 3px whitesmoke;
           border-radius: 50%;
           cursor: pointer;
+        }
+        footer .h5 {
+          width: 75%;
+          border-bottom: solid 0.2px whitesmoke;
+        }
+        .copyright{
+          padding-left: 20px;
         }
       }
     </style>
@@ -368,18 +390,28 @@
 
     <footer class="w-100">
       <div
-        class="text-center"
-        style="color: #87bdd8; text-shadow: 2px 2px 2px white"
+      class="h5"
+        style="
+          color: #87bdd8;
+          text-shadow: 2px 2px 2px white;
+          padding-left: 20px;
+        "
       >
-        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+        <h5>Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
       </div>
       <div class="text-footer w-100 h-100 d-flex">
         <h6
-          class="p-5 w-100"
-          style="color: #87bdd8; text-shadow: 2px 2px 2px white"
+          class="copyright w-100"
+          style="
+            color: #87bdd8;
+            text-shadow: 2px 2px 2px white;
+            padding-left: 20px;
+            padding-top: 10px;
+          "
         >
-          copyright©2022 Apik Technologi.All Rights Reserved
+          copyright©2022 Apik Technologi. <br />All Rights Reserved
         </h6>
+        <h5 class="Account">My Other Account :</h5>
         <div class="sosmed d-flex justify-content-evenly">
           <div class="list-sosmed d-flex justify-content-between">
             <a href="https://github.com/sanas290220"
