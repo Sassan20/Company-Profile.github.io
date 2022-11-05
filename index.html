@@ -35,10 +35,7 @@
       .list-sosmed li:hover {
         cursor: pointer;
       }
-      @media screen and (max-width: 767px) {
-        .card {
-          max-width: 24rem;
-        }
+      @media screen and (max-width: 640px) {
         .cards {
           display: flex;
           flex-direction: column;
@@ -267,24 +264,16 @@
           </div>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
+      <div
         data-bs-target="#carouselExampleControls"
         data-bs-slide="prev"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
+      </div>
+      <div
         data-bs-target="#carouselExampleControls"
         data-bs-slide="next"
       >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      </>
     </div>
 
     <header class="text-center p-3"><h1>Our Services</h1></header>
@@ -388,7 +377,7 @@
     <script>
       const myCarouselElement = document.querySelector("#myCarousel");
       const carousel = new bootstrap.Carousel(myCarouselElement, {
-        interval: 500,
+        interval: 250,
         wrap: false,
       });
     </script>
