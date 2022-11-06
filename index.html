@@ -10,14 +10,45 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <style>
       body {
-        background-color: #fafafa;
+        background-color: rgb(1, 0, 19);
+      }
+      .Image-slide1 {
+        height: 520px;
+        background-image: url(./Image/Landing-Page.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      .Image-slide2 {
+        height: 520px;
+        background-image: url(./Image/Office.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      .Image-slide3 {
+        height: 520px;
+        background-image: url(./Image/Bisnis.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      .about,
+      .corporate,
+      .vision {
+        color: #dadada;
+        background-color: rgb(22, 21, 37);
+        padding: 70px;
+        margin: 10px auto;
+        border-radius: 8px;
       }
       footer {
-        margin-top: 20px;
+        margin-top: 30px;
         padding-top: 30px;
-        background-color: #cfe0e8;
+        background-color: rgb(22, 21, 37);
       }
 
       .sosmed {
@@ -53,7 +84,7 @@
       }
       .card {
         border: none;
-        background-color: #daebe8;
+        background-color: rgb(22, 21, 37);
         width: 25%;
         height: 25%;
         padding: 40px;
@@ -71,6 +102,27 @@
       .btn-sl {
         display: none;
       }
+      .slider1 {
+        display: none;
+      }
+      .cell {
+        padding: 20px;
+      }
+      .image {
+        background-size: cover;
+        width: 400px;
+        height: 250px;
+        padding: 20px;
+        padding-top: 140px;
+        border-radius: 10px;
+      }
+      .text-services{
+        background-color: #dadada94;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 1px #dadada;
+        padding: 7px;
+        border-radius: 20px 0 20px 0;
+      }
       @media (max-width: 740px) {
         .card {
           width: 75%;
@@ -83,11 +135,18 @@
           width: 75%;
           height: 75%;
           padding: 40px;
-          background-color: #daebe8;
+          background-color: rgb(22, 21, 37);
           display: block;
+          border-radius: 10px;
         }
         .btn-sl {
           display: block;
+        }
+        .slider1 {
+          display: block;
+        }
+        .slider2 {
+          display: none;
         }
         .cards {
           display: flex;
@@ -101,23 +160,6 @@
           flex-direction: column;
         }
 
-        .list-sosmed a {
-          width: 35px;
-          height: 35px;
-        }
-
-        .list-sosmed {
-          padding-top: 0;
-          list-style-type: none;
-          transition: 0.5s;
-        }
-
-        .list-sosmed a:hover {
-          border: dashed 3px whitesmoke;
-          border-radius: 50%;
-          cursor: pointer;
-        }
-
         .copyright {
           padding-left: 20px;
         }
@@ -125,74 +167,74 @@
     </style>
   </head>
   <body>
+    <nav
+      class="navbar navbar-expand-lg"
+      style="background-color: rgb(22, 21, 37)"
+    >
+      <div class="container">
+        <a class="navbar-brand text-light" href="#">Navbar</a>
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
     <div
       id="carouselExampleControls"
       class="carousel slide"
       data-bs-ride="carousel"
     >
-      <div class="carousel-inner">
+      <div class="carousel-inner w-100">
         <div class="carousel-item active">
-          <div
-            style="
-              height: 550px;
-              background-image: url(Image/images3.jpg);
-              background-size: cover;
-              background-position: center;
-            "
-            class="d-block w-100"
-          >
-            <nav class="navbar navbar-expand-lg">
-              <div class="container-fluid">
-                <a class="navbar-brand text-light" href="#">APIK TECHNOLOGY</a>
-                <button
-                  class="navbar-toggler bg-light"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNav"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href=""
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href="#"
-                        >Client</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href="#"
-                        >About Us</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href="#"
-                        >Services</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+          <div class="Image-slide1 d-block w-100">
             <div class="p-5 text-center">
               <h1 style="color: white; text-shadow: 1px 2px 2px black">
                 KAMI APIK TECHNOLOGY
@@ -201,67 +243,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div
-            style="
-              height: 550px;
-              background-image: url(./Image/images4.jpg);
-              background-size: cover;
-              background-position: center;
-            "
-            class="d-block w-100"
-          >
-            <nav class="navbar navbar-expand-lg">
-              <div class="container-fluid">
-                <a class="navbar-brand text-light" href="#">APIK TECHNOLOGY</a>
-                <button
-                  class="navbar-toggler bg-light"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNav"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href="#"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href="#"
-                        >Client</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href="#"
-                        >About Us</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href="#"
-                        >Services</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+          <div class="Image-slide2 d-block w-100">
             <div class="p-5">
               <h1 style="color: white; text-shadow: 1px 2px 2px black">
                 KAMI KONSULTAN IT.
@@ -270,67 +252,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div
-            style="
-              height: 550px;
-              background-image: url(./Image/keyboard6.jpg);
-              background-size: cover;
-              background-position: center;
-            "
-            class="d-block w-100"
-          >
-            <nav class="navbar navbar-expand-lg">
-              <div class="container-fluid">
-                <a class="navbar-brand text-light" href="#">APIK TECHNOLOGY</a>
-                <button
-                  class="navbar-toggler bg-light"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNav"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href="#"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href="#"
-                        >Client</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href="#"
-                        >About Us</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-light"
-                        aria-current="page"
-                        href="#"
-                        >Services</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+          <div class="Image-slide3 d-block w-100">
             <div class="p-5">
               <h1 style="color: white; text-shadow: 1px 2px 2px black">
                 KAMI KONSULTAN BISNIS
@@ -344,74 +266,72 @@
     </div>
 
     <!-- ABOUT US -->
-
-    <header
-      class="text-center p-3"
-      style="color: #87bdd8; text-shadow: 2px 2px 2px white"
-    >
+    <header class="text-center p-3" style="color: #dadada">
       <h1>ABOUT US</h1>
     </header>
-    <p class="text-center" style="color: #87bdd8; padding: 10px">
-      CV. Sandi Sukses Teknologi merupakan perusahaan yang bergerak dibidang
-      penyedia jasa ICT (Information Communication Technology) yang secara
-      khusus memberikan layanan pengadaan dan konsultansi berbagai produk ICT.
-      Kami merupakan putra-putri Indonesia yang tinggal dipinggiran Kota yang
-      berpengalaman dan memiliki kretifitas dibidang ICT dan Multimedia.
-      <br /><br />
+    <div class="about w-75">
+      <p class="text-center">
+        CV. Sandi Sukses Teknologi merupakan perusahaan yang bergerak dibidang
+        penyedia jasa ICT (Information Communication Technology) yang secara
+        khusus memberikan layanan pengadaan dan konsultansi berbagai produk ICT.
+        Kami merupakan putra-putri Indonesia yang tinggal dipinggiran Kota yang
+        berpengalaman dan memiliki kretifitas dibidang ICT dan Multimedia.
+        <br /><br />
 
-      Kami selalu menciptakan ide-ide dan hal-hal baru untuk kemajuan technology
-      information di Indonesia, kami Anak Pinggiran Kreatif (APIK) yang
-      berkomitmen untuk selalu menjaga COOPERATION terhadap semua mitra bisnis
-      kami. COOPERATION yang kami maksud tertuang dalam tata nilai perusahaan
-      kami.
-    </p>
-
+        Kami selalu menciptakan ide-ide dan hal-hal baru untuk kemajuan
+        technology information di Indonesia, kami Anak Pinggiran Kreatif (APIK)
+        yang berkomitmen untuk selalu menjaga COOPERATION terhadap semua mitra
+        bisnis kami. COOPERATION yang kami maksud tertuang dalam tata nilai
+        perusahaan kami.
+      </p>
+    </div>
     <!-- CORPORATE VALUES  -->
-
     <header
       class="text-center p-3"
-      style="color: #87bdd8; text-shadow: 2px 2px 2px white"
+      style="color: #dadada"
     >
       <h1>CORPORATE VALUES</h1>
     </header>
-    <h4 style="padding-left: 30px; color: #87bdd8">
-      Care Focus Open Mind Excellence Integrity Inovation
-    </h4>
-    <p style="padding-left: 30px; color: #87bdd8">
-      ● Care <br />
-      Bersikap peduli, berempati dan responsif dalam memberikan pelayanan <br />
-      yang melebihi harapan mitra kerja. <br />
-      ● Focus <br />
-      Mengedepankan dan mendedikasikan diri pada pengembangan ICT <br />
-      yang koprehensif dan transparan. <br />
-      ● Open Mind <br />
-      Bersikap objektif dan komunikatif untuk mencapai kinerja yang lebih baik.
-      <br />
-      ● Excellence <br />
-      Berorientasi pada kepuasan dan kanginan mitra dengan mengedepankan
-      ketepatan kualitas <br />
-      dan hasil yang memuaskan. <br />
-      ● Integrity <br />
-      Jujur, tulus dan dapat di percaya dalam berfikir, berkata dan bertindak
-      <br />
-      ● Inovation <br />
-      Kreatif dalam segala hal untuk menghasilkan nilai tambah bagi mitra
-    </p>
-
+    <div class="corporate w-75">
+      <h4 style="padding-left: 30px">
+        Care Focus Open Mind Excellence Integrity Inovation
+      </h4>
+      <p style="padding-left: 30px">
+        ● Care <br />
+        Bersikap peduli, berempati dan responsif dalam memberikan pelayanan
+        <br />
+        yang melebihi harapan mitra kerja. <br />
+        ● Focus <br />
+        Mengedepankan dan mendedikasikan diri pada pengembangan ICT <br />
+        yang koprehensif dan transparan. <br />
+        ● Open Mind <br />
+        Bersikap objektif dan komunikatif untuk mencapai kinerja yang lebih
+        baik.
+        <br />
+        ● Excellence <br />
+        Berorientasi pada kepuasan dan kanginan mitra dengan mengedepankan
+        ketepatan kualitas <br />
+        dan hasil yang memuaskan. <br />
+        ● Integrity <br />
+        Jujur, tulus dan dapat di percaya dalam berfikir, berkata dan bertindak
+        <br />
+        ● Inovation <br />
+        Kreatif dalam segala hal untuk menghasilkan nilai tambah bagi mitra
+      </p>
+    </div>
     <!-- VISION & MISSION  -->
-
     <header
       class="text-center p-3"
-      style="color: #87bdd8; text-shadow: 2px 2px 2px white"
-    >
+      style="color: #dadada"    >
       <h1>OUR VISION & MISSION</h1>
     </header>
-    <h5 style="padding-left: 30px; color: #87bdd8">⫸ Visi</h5>
-    <p style="color: #87bdd8; padding-left: 30px">
+    <div class="vision w-75">
+    <h5 style="padding-left: 30px;">⫸ Visi</h5>
+    <p style="padding-left: 30px">
       ● Menjadi perusahaan IT terkemuka dan profitable di Indonesia <br />
     </p>
-    <h5 style="padding-left: 30px; color: #87bdd8">⫸ Misi</h5>
-    <p style="color: #87bdd8; padding-left: 30px">
+    <h5 style="padding-left: 30px;">⫸ Misi</h5>
+    <p style="padding-left: 30px">
       ● Memberikan solusi yang optimal kepada mitra kerja dalam mengatasi
       berbagai <br />
       permasalahan di dunia teknologi informasi dan manajemen bisnis. <br />
@@ -422,200 +342,239 @@
       ● Mengedepankan profesionalisme, kemampuan individu dan team dalam
       menghasilkan produk produk terbaik. <br />
     </p>
-
+  </div>
     <!-- SERVICES -->
     <header
       class="text-center p-3"
-      style="color: #87bdd8; text-shadow: 2px 2px 2px white"
+      style="color: #dadada"
     >
       <h1>OUR SERVICES</h1>
     </header>
 
-    <div
-      id="carouselExampleDark"
-      class="carousel carousel-dark slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <div class="w-100 d-flex justify-content-evenly">
-            <div class="card">
-              <img
-                class="w-25 h-25"
-                style="padding-top: 40px"
-                src="Assets/display.svg"
-                alt=""
-              />
-              <h5
-                class="card-text"
-                style="
-                  padding-top: 8px;
-                  color: #87bdd8;
-                  text-shadow: 2px 2px 2px white;
-                "
+    <div class="slider1">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="w-100 d-flex justify-content-evenly">
+              <div class="card">
+                <div
+                  class="image"
+                  style="background-image: url(Image/Hardware.jpg)"
+                >
+                <div class="text-services">
+                  <h4>Hardware</h4>
+                  <h6>Perbaikan Laptop/Komputer Atau Penggatian Hardware</h6>
+                </div>
+                </div>
+              </div>
+              <div
+                class="card2"
+                style="border: none; background-color: #daebe8"
               >
-                IT Support
-              </h5>
+                <div
+                  class="image"
+                  style="background-image: url(Image/Hardware.jpg)"
+                >
+                <div class="text-services">
+                  <h4>Development</h4>
+                  <h6>Costum Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile</h6>
+                </div>
+                </div>
+              </div>
             </div>
-            <div class="card2" style="border: none; background-color: #daebe8">
-              <img
-                class="w-25 h-25"
-                style="padding-top: 40px"
-                src="Assets/display.svg"
-                alt=""
-              />
-              <h5
-                class="card-text"
-                style="
-                  padding-top: 8px;
-                  color: #87bdd8;
-                  text-shadow: 2px 2px 2px white;
-                "
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <div class="w-100 d-flex justify-content-evenly">
+              <div class="card">
+                <div
+                  class="image"
+                  style="background-image: url(Image/Hardware.jpg)"
+                >
+                <div class="text-services">
+                  <h4>Network</h4>
+                  <h6>Jasa Pembuatan Jaringan Komputer Atau jaringan Internet</h6>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="w-100 d-flex justify-content-evenly">
+              <div class="card">
+                <div
+                  class="image"
+                  style="background-image: url(Image/Hardware.jpg)"
+                >
+                <div class="text-services">
+                  <h4>
+                    Desain/Editing Video
+                  </h4>
+                  <h6>Jasa Desain Grafis, Editing Video & Video Drone</h6>
+                </div>
+                </div>
+              </div>
+              <div
+                class="card2 p-5 w-25 h-25"
+                style="border: none; background-color: #daebe8"
               >
-                Development
-              </h5>
+                <div
+                  class="image"
+                  style="background-image: url(Image/Hardware.jpg)"
+                >
+                <div class="text-services">
+                  <h4>CCTV</h4>
+                  <h6>Jasa Perancangan Pasang Kamera CCTV, Perancangan CCTV</h6>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="w-100 d-flex justify-content-evenly">
+              <div class="card4">
+                <div
+                  class="image"
+                  style="background-image: url(Image/Hardware.jpg)"
+                >
+                <div class="text-services">
+                  <h4>Development</h4>
+                  <h6>Costum Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile</h6>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="w-100 d-flex justify-content-evenly">
+              <div class="card4">
+                <div
+                  class="image"
+                  style="background-image: url(Image/Hardware.jpg)"
+                >
+                <div class="text-services">
+                  <h4>CCTV</h4>
+                  <h6>Jasa Perancangan Pasang Kamera CCTV, Perancangan CCTV</h6>
+                </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="1000">
-          <div class="w-100 d-flex justify-content-evenly">
-            <div class="card">
-              <img
-                class="w-25 h-25"
-                style="padding-top: 40px"
-                src="Assets/display.svg"
-                alt=""
-              />
-              <h5
-                class="card-text"
-                style="
-                  padding-top: 8px;
-                  color: #87bdd8;
-                  text-shadow: 2px 2px 2px white;
-                "
-              >
-                Hardware
-              </h5>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="slider2">
+      <div
+        class="main-carousel"
+        data-flickity='{ "cellAlign": "left", "contain": true, "freeScroll": true, "wrapAround": true }'
+      >
+        <div class="cell">
+          <div class="image" style="background-image: url(Image/Hardware.jpg)">
+            <div class="text-services">
+              <h4>Hardware</h4>
+              <h6>Perbaikan Laptop/Komputer Atau Penggatian Hardware</h6>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="w-100 d-flex justify-content-evenly">
-            <div class="card">
-              <img
-                class="w-25 h-25"
-                style="padding-top: 40px;"
-                src="Assets/display.svg"
-                alt=""
-              />
-              <h5
-                class="card-text"
-                style="
-                  padding-top: 8px;
-                  color: #87bdd8;
-                  text-shadow: 2px 2px 2px white;
-                "
-              >
-                Desain/Editing Video
-              </h5>
-            </div>
-            <div
-              class="card2 p-5 w-25 h-25"
-              style="border: none; background-color: #daebe8"
-            >
-              <img
-                class="w-25 h-25"
-                style="padding-top: 40px"
-                src="Assets/display.svg"
-                alt=""
-              />
-              <h5
-                class="card-text"
-                style="
-                  padding-top: 8px;
-                  color: #87bdd8;
-                  text-shadow: 2px 2px 2px white;
-                "
-              >
-                CCTV
-              </h5>
+        <div class="cell">
+          <div
+            class="image"
+            style="background-image: url(Image/Development.jpg)"
+          >
+          <div class="text-services">
+            <h4>Development</h4>
+            <h6>Costum Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile</h6>
+          </div>
+          </div>
+        </div>
+        <div class="cell">
+          <div class="image" style="background-image: url(Image/Network.jpg)">
+            <div class="text-services">
+              <h4>Network</h4>
+              <h6>Jasa Pembuatan Jaringan Komputer Atau jaringan Internet</h6>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="w-100 d-flex justify-content-evenly">
-            <div class="card4">
-              <img
-                class="w-25 h-25"
-                style="padding-top: 40px"
-                src="Assets/display.svg"
-                alt=""
-              />
-              <h5
-                class="card-text"
-                style="
-                  padding-top: 8px;
-                  color: #87bdd8;
-                  text-shadow: 2px 2px 2px white;
-                "
-              >
-                CCTV
-              </h5>
-            </div>
+        <div class="cell">
+          <div
+            class="image"
+            style="background-image: url(Image/video-editing.jpg)"
+          >
+          <div class="text-services">
+            <h4>
+              Desain/Editing Video
+            </h4>
+            <h6>Jasa Desain Grafis, Editing Video & Video Drone</h6>
+          </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="w-100 d-flex justify-content-evenly">
-            <div class="card4">
-              <img
-                class="w-25 h-25"
-                style="padding-top: 40px"
-                src="Assets/display.svg"
-                alt=""
-              />
-              <h5
-                class="card-text"
-                style="
-                  padding-top: 8px;
-                  color: #87bdd8;
-                  text-shadow: 2px 2px 2px white;
-                "
-              >
-                Network
-              </h5>
+        <div class="cell">
+          <div class="image" style="background-image: url(Image/CCTV.jpg)">
+            <div class="text-services">
+              <h4>CCTV</h4>
+              <h6>Jasa Perancangan Pasang Kamera CCTV, Perancangan CCTV</h6>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#carouselExampleDark"
-      data-bs-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#carouselExampleDark"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-
     <footer class="w-100">
-      <div
-        class="h5"
-        style="
-          color: #87bdd8;
-          text-shadow: 2px 2px 2px white;
-          padding-left: 20px;
-        "
-      >
+      <div style="color: #dadada; padding-left: 20px">
         <h6>
           JL.Karya Darma, Gg.Kasijah No.4, Pangkalan Mansyur, <br />
           Medan Johor-Kota Medan Sumatera Utara-Indonesia <br />
@@ -626,12 +585,7 @@
       <div class="text-footer w-100 h-100 d-flex">
         <h6
           class="copyright w-100"
-          style="
-            color: #87bdd8;
-            text-shadow: 2px 2px 2px white;
-            padding-left: 20px;
-            padding-top: 10px;
-          "
+          style="color: #dadada; padding-left: 20px; padding-top: 10px"
         >
           copyright©2022 Apik Technologi. <br />All Rights Reserved
         </h6>
@@ -664,11 +618,13 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script>
       const myCarouselElement = document.querySelector("#myCarousel");
       const carousel = new bootstrap.Carousel(myCarouselElement, {
         interval: 250,
         wrap: false,
+        wrapAround: true,
       });
     </script>
   </body>
