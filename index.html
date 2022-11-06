@@ -14,215 +14,67 @@
       rel="stylesheet"
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
+    <link rel="stylesheet" href="Css/Style.css" />
     <style>
-      body {
-        background-color: rgb(1, 0, 19);
-      }
       .Image-slide1 {
         height: 520px;
-        background-image: url(./Image/Landing-Page.jpg);
+        background-image: url(Image/Landing-Page.jpg);
         background-size: cover;
         background-position: center;
       }
       .Image-slide2 {
         height: 520px;
-        background-image: url(./Image/Office.jpg);
+        background-image: url(Image/Office.jpg);
         background-size: cover;
         background-position: center;
       }
       .Image-slide3 {
         height: 520px;
-        background-image: url(./Image/Bisnis.jpg);
+        background-image: url(Image/Bisnis.jpg);
         background-size: cover;
         background-position: center;
-      }
-      .about,
-      .corporate,
-      .vision {
-        color: #dadada;
-        background-color: rgb(22, 21, 37);
-        padding: 70px;
-        margin: 10px auto;
-        border-radius: 8px;
-      }
-      footer {
-        margin-top: 30px;
-        padding-top: 30px;
-        background-color: rgb(22, 21, 37);
-      }
-
-      .sosmed {
-        grid-area: sosmed;
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 150px;
-      }
-
-      .list-sosmed a {
-        width: 45px;
-        height: 45px;
-        padding: 5px;
-        margin-left: 20px;
-      }
-
-      .list-sosmed {
-        padding-left: 140px;
-        padding-top: 15px;
-        padding-bottom: 20px;
-        list-style-type: none;
-        transition: 0.5s;
-      }
-
-      .list-sosmed a:hover {
-        border: dashed 3px whitesmoke;
-        border-radius: 50%;
-        cursor: pointer;
-      }
-      footer .h5 {
-        width: 75%;
-        border-bottom: solid 0.2px whitesmoke;
-      }
-      .card {
-        border: none;
-        background-color: rgb(22, 21, 37);
-        width: 25%;
-        height: 25%;
-        padding: 40px;
-      }
-      .card2 {
-        border: none;
-        background-color: #daebe8;
-        width: 25%;
-        height: 25%;
-        padding: 40px;
-      }
-      .card4 {
-        display: none;
-      }
-      .btn-sl {
-        display: none;
-      }
-      .slider1 {
-        display: none;
-      }
-      .cell {
-        padding: 20px;
-      }
-      .image {
-        background-size: cover;
-        width: 400px;
-        height: 250px;
-        padding: 20px;
-        padding-top: 140px;
-        border-radius: 10px;
-      }
-      .text-services{
-        background-color: #dadada94;
-        color: rgb(0, 0, 0);
-        text-shadow: 2px 2px 1px #dadada;
-        padding: 7px;
-        border-radius: 20px 0 20px 0;
-      }
-      @media (max-width: 740px) {
-        .card {
-          width: 75%;
-          height: 75%;
-        }
-        .card2 {
-          display: none;
-        }
-        .card4 {
-          width: 75%;
-          height: 75%;
-          padding: 40px;
-          background-color: rgb(22, 21, 37);
-          display: block;
-          border-radius: 10px;
-        }
-        .btn-sl {
-          display: block;
-        }
-        .slider1 {
-          display: block;
-        }
-        .slider2 {
-          display: none;
-        }
-        .cards {
-          display: flex;
-          flex-direction: column;
-        }
-        .card-body {
-          background-color: white;
-        }
-        .text-footer {
-          display: flex;
-          flex-direction: column;
-        }
-
-        .copyright {
-          padding-left: 20px;
-        }
       }
     </style>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg"
-      style="background-color: rgb(22, 21, 37)"
-    >
-      <div class="container">
-        <a class="navbar-brand text-light" href="#">Navbar</a>
-        <button
-          class="navbar-toggler bg-light"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+    <nav class="navbar navbar-dark fixed-top" style="background-color: rgb(1, 0, 19);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="#"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-light"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-light" type="submit">Search</button>
-          </form>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
       </div>
     </nav>
@@ -266,10 +118,10 @@
     </div>
 
     <!-- ABOUT US -->
-    <header class="text-center p-3" style="color: #dadada">
-      <h1>ABOUT US</h1>
-    </header>
     <div class="about w-75">
+      <header class="text-center p-3" style="color: #dadada">
+        <h1>ABOUT US</h1>
+      </header>
       <p class="text-center">
         CV. Sandi Sukses Teknologi merupakan perusahaan yang bergerak dibidang
         penyedia jasa ICT (Information Communication Technology) yang secara
@@ -286,13 +138,10 @@
       </p>
     </div>
     <!-- CORPORATE VALUES  -->
-    <header
-      class="text-center p-3"
-      style="color: #dadada"
-    >
-      <h1>CORPORATE VALUES</h1>
-    </header>
     <div class="corporate w-75">
+      <header class="text-center p-3" style="color: #dadada">
+        <h1>CORPORATE VALUES</h1>
+      </header>
       <h4 style="padding-left: 30px">
         Care Focus Open Mind Excellence Integrity Inovation
       </h4>
@@ -320,34 +169,29 @@
       </p>
     </div>
     <!-- VISION & MISSION  -->
-    <header
-      class="text-center p-3"
-      style="color: #dadada"    >
-      <h1>OUR VISION & MISSION</h1>
-    </header>
     <div class="vision w-75">
-    <h5 style="padding-left: 30px;">⫸ Visi</h5>
-    <p style="padding-left: 30px">
-      ● Menjadi perusahaan IT terkemuka dan profitable di Indonesia <br />
-    </p>
-    <h5 style="padding-left: 30px;">⫸ Misi</h5>
-    <p style="padding-left: 30px">
-      ● Memberikan solusi yang optimal kepada mitra kerja dalam mengatasi
-      berbagai <br />
-      permasalahan di dunia teknologi informasi dan manajemen bisnis. <br />
-      ● Memberikan produk dan layanan yang berkualitas mengikuti perkembangan
-      dunia <br />
-      teknologi informasi terkini dengan layanan purna jual dan pendampingan
-      yang maksimal kepada setiap mitra kerja. <br />
-      ● Mengedepankan profesionalisme, kemampuan individu dan team dalam
-      menghasilkan produk produk terbaik. <br />
-    </p>
-  </div>
+      <header class="text-center p-3" style="color: #dadada">
+        <h1>OUR VISION & MISSION</h1>
+      </header>
+      <h5 style="padding-left: 30px">⫸ Visi</h5>
+      <p style="padding-left: 30px">
+        ● Menjadi perusahaan IT terkemuka dan profitable di Indonesia <br />
+      </p>
+      <h5 style="padding-left: 30px">⫸ Misi</h5>
+      <p style="padding-left: 30px">
+        ● Memberikan solusi yang optimal kepada mitra kerja dalam mengatasi
+        berbagai <br />
+        permasalahan di dunia teknologi informasi dan manajemen bisnis. <br />
+        ● Memberikan produk dan layanan yang berkualitas mengikuti perkembangan
+        dunia <br />
+        teknologi informasi terkini dengan layanan purna jual dan pendampingan
+        yang maksimal kepada setiap mitra kerja. <br />
+        ● Mengedepankan profesionalisme, kemampuan individu dan team dalam
+        menghasilkan produk produk terbaik. <br />
+      </p>
+    </div>
     <!-- SERVICES -->
-    <header
-      class="text-center p-3"
-      style="color: #dadada"
-    >
+    <header class="text-center p-3" style="color: #dadada">
       <h1>OUR SERVICES</h1>
     </header>
 
@@ -399,10 +243,10 @@
                   class="image"
                   style="background-image: url(Image/Hardware.jpg)"
                 >
-                <div class="text-services">
-                  <h4>Hardware</h4>
-                  <h6>Perbaikan Laptop/Komputer Atau Penggatian Hardware</h6>
-                </div>
+                  <div class="text-services">
+                    <h4>Hardware</h4>
+                    <h6>Perbaikan Laptop/Komputer Atau Penggatian Hardware</h6>
+                  </div>
                 </div>
               </div>
               <div
@@ -413,10 +257,12 @@
                   class="image"
                   style="background-image: url(Image/Hardware.jpg)"
                 >
-                <div class="text-services">
-                  <h4>Development</h4>
-                  <h6>Costum Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile</h6>
-                </div>
+                  <div class="text-services">
+                    <h4>Development</h4>
+                    <h6>
+                      Costum Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile
+                    </h6>
+                  </div>
                 </div>
               </div>
             </div>
@@ -428,10 +274,12 @@
                   class="image"
                   style="background-image: url(Image/Hardware.jpg)"
                 >
-                <div class="text-services">
-                  <h4>Network</h4>
-                  <h6>Jasa Pembuatan Jaringan Komputer Atau jaringan Internet</h6>
-                </div>
+                  <div class="text-services">
+                    <h4>Network</h4>
+                    <h6>
+                      Jasa Pembuatan Jaringan Komputer Atau jaringan Internet
+                    </h6>
+                  </div>
                 </div>
               </div>
             </div>
@@ -443,12 +291,10 @@
                   class="image"
                   style="background-image: url(Image/Hardware.jpg)"
                 >
-                <div class="text-services">
-                  <h4>
-                    Desain/Editing Video
-                  </h4>
-                  <h6>Jasa Desain Grafis, Editing Video & Video Drone</h6>
-                </div>
+                  <div class="text-services">
+                    <h4>Desain/Editing Video</h4>
+                    <h6>Jasa Desain Grafis, Editing Video & Video Drone</h6>
+                  </div>
                 </div>
               </div>
               <div
@@ -459,25 +305,12 @@
                   class="image"
                   style="background-image: url(Image/Hardware.jpg)"
                 >
-                <div class="text-services">
-                  <h4>CCTV</h4>
-                  <h6>Jasa Perancangan Pasang Kamera CCTV, Perancangan CCTV</h6>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="w-100 d-flex justify-content-evenly">
-              <div class="card4">
-                <div
-                  class="image"
-                  style="background-image: url(Image/Hardware.jpg)"
-                >
-                <div class="text-services">
-                  <h4>Development</h4>
-                  <h6>Costum Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile</h6>
-                </div>
+                  <div class="text-services">
+                    <h4>CCTV</h4>
+                    <h6>
+                      Jasa Perancangan Pasang Kamera CCTV, Perancangan CCTV
+                    </h6>
+                  </div>
                 </div>
               </div>
             </div>
@@ -489,10 +322,29 @@
                   class="image"
                   style="background-image: url(Image/Hardware.jpg)"
                 >
-                <div class="text-services">
-                  <h4>CCTV</h4>
-                  <h6>Jasa Perancangan Pasang Kamera CCTV, Perancangan CCTV</h6>
+                  <div class="text-services">
+                    <h4>Development</h4>
+                    <h6>
+                      Costum Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile
+                    </h6>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="w-100 d-flex justify-content-evenly">
+              <div class="card4">
+                <div
+                  class="image"
+                  style="background-image: url(Image/Hardware.jpg)"
+                >
+                  <div class="text-services">
+                    <h4>CCTV</h4>
+                    <h6>
+                      Jasa Perancangan Pasang Kamera CCTV, Perancangan CCTV
+                    </h6>
+                  </div>
                 </div>
               </div>
             </div>
@@ -536,10 +388,12 @@
             class="image"
             style="background-image: url(Image/Development.jpg)"
           >
-          <div class="text-services">
-            <h4>Development</h4>
-            <h6>Costum Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile</h6>
-          </div>
+            <div class="text-services">
+              <h4>Development</h4>
+              <h6>
+                Costum Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile
+              </h6>
+            </div>
           </div>
         </div>
         <div class="cell">
@@ -555,12 +409,10 @@
             class="image"
             style="background-image: url(Image/video-editing.jpg)"
           >
-          <div class="text-services">
-            <h4>
-              Desain/Editing Video
-            </h4>
-            <h6>Jasa Desain Grafis, Editing Video & Video Drone</h6>
-          </div>
+            <div class="text-services">
+              <h4>Desain/Editing Video</h4>
+              <h6>Jasa Desain Grafis, Editing Video & Video Drone</h6>
+            </div>
           </div>
         </div>
         <div class="cell">
