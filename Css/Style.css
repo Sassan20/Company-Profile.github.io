@@ -148,7 +148,8 @@ footer .h5 {
   }
 
   .card {
-    width: 90%;
+    transform: skewY(7deg);
+    width: 84%;
     height: 100%;
   }
 
@@ -165,7 +166,8 @@ footer .h5 {
   }
 
   .card4 {
-    width: 90%;
+    transform: skewY(5deg);
+    width: 84%;
     height: 100%;
     padding: 40px;
     display: block;
@@ -196,11 +198,12 @@ footer .h5 {
   }
 
   .card-about {
+    margin: 50px 48px;
     transition: .3s;
   }
 
   .card-about:hover {
-    transform: translateY(-40px);
+    transform: translateY(-20px);
   }
 
   .text-footer {
