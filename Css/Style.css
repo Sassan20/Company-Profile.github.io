@@ -34,7 +34,6 @@ body {
 }
 
 footer {
-  margin-top: 30px;
   padding-top: 30px;
   background-color: rgb(22, 21, 37);
 }
@@ -74,10 +73,17 @@ footer .h5 {
 
 .card {
   border: none;
-  background-color: rgb(22, 21, 37);
   width: 25%;
   height: 25%;
   padding: 40px;
+}
+
+.card-slider {
+  background-color: rgb(1, 0, 19);
+}
+
+.card-body {
+  display: none;
 }
 
 .card2 {
@@ -132,67 +138,86 @@ footer .h5 {
   .about,
   .corporate,
   .vision {
-  display: none;
-}
+    display: none;
+  }
 
-.image{
-  background-size: cover;
-  width: 100%;
-  height: 90%;
-}
+  .image {
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+  }
 
-.card {
-  width: 90%;
-  height: 100%;
-}
+  .card {
+    width: 90%;
+    height: 100%;
+  }
 
-.text-services{
-  margin-top: 100px;
-}
+  .card-body {
+    display: block;
+  }
 
-.card2 {
-  display: none;
-}
+  .text-services {
+    margin-top: 100px;
+  }
 
-.card4 {
-  width: 90%;
-  height: 100%;
-  padding: 40px;
-  display: block;
-  border-radius: 10px;
-}
+  .card2 {
+    display: none;
+  }
 
-.btn-sl {
-  display: block;
-}
+  .card4 {
+    width: 90%;
+    height: 100%;
+    padding: 40px;
+    display: block;
+    border-radius: 10px;
+  }
 
-.slider1 {
-  display: block;
-}
+  .btn-sl {
+    display: block;
+  }
 
-.slider2 {
-  display: none;
-}
+  .slider1 {
+    margin: 60px 0;
+    display: block;
+    transform: skewY(-15deg);
+  }
+  
+  .slider3 {
+    display: block;
+  }
+  .slider2 {
+    display: none;
+  }
 
-.card-body {
-  background-color: white;
-}
+  .card-body1 {
+    margin-top: 60px;
+    background-color: white;
+    border: none;
+  }
 
-.text-footer {
-  display: flex;
-  flex-direction: column;
-}
+  .card-about {
+    transition: .3s;
+  }
 
-.copyright {
-  padding-left: 20px;
-}
+  .card-about:hover {
+    transform: translateY(-40px);
+  }
 
-.logo-perusahaan1{
-  display: none;
-}
+  .text-footer {
+    display: flex;
+    flex-direction: column;
+  }
 
-.logo-perusahaan2{
-  display: none;
-}
+  .copyright {
+    padding-left: 20px;
+  }
+
+  .logo-perusahaan1 {
+    display: none;
+  }
+
+  .logo-perusahaan2 {
+    display: none;
+  }
 
 }
