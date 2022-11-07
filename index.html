@@ -37,47 +37,105 @@
         background-size: cover;
         background-position: center;
       }
+      @media (max-width: 720px) {
+
+        .logo-perusahaan1{
+          display: none;
+        }
+
+        .logo-perusahaan2{
+          display: none;
+        }
+        
+      }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-dark fixed-top" style="background-color: rgb(1, 0, 19);">
+
+<!-- Navbar -->
+
+    <nav
+      class="navbar navbar-dark fixed-top"
+      style="background-color: rgb(1, 0, 19)"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              Dark offcanvas
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">       
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li><a class="dropdown-item p-2" href="index.html">Home</a></li>
-              <li><a class="dropdown-item p-2" href="Html/About.html">About Us</a></li>
-              <li><a class="dropdown-item p-2" href="Html/Project.html">Project</a></li>
+              <li>
+                <a class="dropdown-item p-2" href="Html/About.html">About Us</a>
+              </li>
+              <li>
+                <a class="dropdown-item p-2" href="Html/Project.html"
+                  >Project</a
+                >
+              </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Dropdown
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li>
-                    <hr class="dropdown-divider">
+                    <hr class="dropdown-divider" />
                   </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
                 </ul>
               </li>
             </ul>
             <form class="d-flex mt-3" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
               <button class="btn btn-success" type="submit">Search</button>
             </form>
           </div>
         </div>
       </div>
     </nav>
+
+    <!--  -->
+
+    <!-- Slaider Utama -->
 
     <div
       id="carouselExampleControls"
@@ -117,7 +175,10 @@
       <div data-bs-target="#carouselExampleControls" data-bs-slide="next"></div>
     </div>
 
+    <!--  -->
+
     <!-- ABOUT US -->
+
     <div class="about w-75">
       <header class="text-center p-3" style="color: #dadada">
         <h1>ABOUT US</h1>
@@ -137,7 +198,11 @@
         perusahaan kami.
       </p>
     </div>
+
+    <!--  -->
+
     <!-- CORPORATE VALUES  -->
+
     <div class="corporate w-75">
       <header class="text-center p-3" style="color: #dadada">
         <h1>CORPORATE VALUES</h1>
@@ -168,7 +233,11 @@
         Kreatif dalam segala hal untuk menghasilkan nilai tambah bagi mitra
       </p>
     </div>
+
+    <!--  -->
+
     <!-- VISION & MISSION  -->
+
     <div class="vision w-75">
       <header class="text-center p-3" style="color: #dadada">
         <h1>OUR VISION & MISSION</h1>
@@ -190,10 +259,18 @@
         menghasilkan produk produk terbaik. <br />
       </p>
     </div>
+
+    <!--  -->
+
     <!-- SERVICES -->
-    <header class="text-center" style="color: #dadada; margin-top: 50px;">
+
+    <header class="text-center" style="color: #dadada; margin-top: 50px">
       <h1>OUR SERVICES</h1>
     </header>
+
+    <!--  -->
+
+    <!-- Slider 2 -->
 
     <div class="slider1">
       <div
@@ -237,44 +314,63 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <div class="w-100 p-5 d-flex justify-content-evenly" style=" background-color: rgb(22, 21, 37); height: 400px;">
-              <div class="card h-100"   style="background-image: url(Image/Hardware.jpg)">
-                  <div class="text-services">
-                    <h4>Hardware</h4>
-                    <h6>Perbaikan Laptop/Komputer Atau Penggatian Hardware</h6>
+            <div
+              class="w-100 p-5 d-flex justify-content-evenly"
+              style="background-color: rgb(22, 21, 37); height: 400px"
+            >
+              <div
+                class="card h-100"
+                style="background-image: url(Image/Hardware.jpg)"
+              >
+                <div class="text-services">
+                  <h4>Hardware</h4>
+                  <h6>Perbaikan Laptop/Komputer Atau Penggatian Hardware</h6>
                 </div>
               </div>
               <div
                 class="card2"
-                style="background-image: url(Image/Development.jpg)"              >
-                  <div class="text-services">
-                    <h4>Development</h4>
-                    <h6>
-                      Costum Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile
-                    </h6>
+                style="background-image: url(Image/Development.jpg)"
+              >
+                <div class="text-services">
+                  <h4>Development</h4>
+                  <h6>
+                    Costum Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile
+                  </h6>
                 </div>
               </div>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="1000">
-            <div class="w-100 p-5 d-flex justify-content-evenly" style=" background-color: rgb(22, 21, 37); height: 400px;">
-              <div class="card h-100" style="background-image: url(Image/Network.jpg)">
-                  <div class="text-services">
-                    <h4>Network</h4>
-                    <h6>
-                      Jasa Pembuatan Jaringan Komputer Atau jaringan Internet
-                    </h6>
+            <div
+              class="w-100 p-5 d-flex justify-content-evenly"
+              style="background-color: rgb(22, 21, 37); height: 400px"
+            >
+              <div
+                class="card h-100"
+                style="background-image: url(Image/Network.jpg)"
+              >
+                <div class="text-services">
+                  <h4>Network</h4>
+                  <h6>
+                    Jasa Pembuatan Jaringan Komputer Atau jaringan Internet
+                  </h6>
                 </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="w-100 p-5 d-flex justify-content-evenly" style=" background-color: rgb(22, 21, 37); height: 400px;">
-              <div class="card h-100" style="background-image: url(Image/video-editing.jpg);">
-                  <div class="text-services">
-                    <h4>Desain/Editing Video</h4>
-                    <h6>Jasa Desain Grafis, Editing Video & Video Drone</h6>
-                  </div>
+            <div
+              class="w-100 p-5 d-flex justify-content-evenly"
+              style="background-color: rgb(22, 21, 37); height: 400px"
+            >
+              <div
+                class="card h-100"
+                style="background-image: url(Image/video-editing.jpg)"
+              >
+                <div class="text-services">
+                  <h4>Desain/Editing Video</h4>
+                  <h6>Jasa Desain Grafis, Editing Video & Video Drone</h6>
+                </div>
               </div>
               <div
                 class="card2 p-5 w-25 h-25"
@@ -286,34 +382,37 @@
                 >
                   <div class="text-services">
                     <h4>CCTV</h4>
-                    <h6>
-                      Jasa Perancangan, Pasang Kamera CCTV dan lainnya
-                    </h6>
+                    <h6>Jasa Perancangan, Pasang Kamera CCTV dan lainnya</h6>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="w-100 p-5 d-flex justify-content-evenly" style=" background-color: rgb(22, 21, 37); height: 400px;">
-              <div class="card4"  style="background-image: url(Image/Development.jpg)">
-                  <div class="text-services">
-                    <h4>Development</h4>
-                    <h6>
-                      Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile
-                    </h6>
+            <div
+              class="w-100 p-5 d-flex justify-content-evenly"
+              style="background-color: rgb(22, 21, 37); height: 400px"
+            >
+              <div
+                class="card4"
+                style="background-image: url(Image/Development.jpg)"
+              >
+                <div class="text-services">
+                  <h4>Development</h4>
+                  <h6>Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile</h6>
                 </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="w-100 p-5 d-flex justify-content-evenly" style=" background-color: rgb(22, 21, 37); height: 400px;">
+            <div
+              class="w-100 p-5 d-flex justify-content-evenly"
+              style="background-color: rgb(22, 21, 37); height: 400px"
+            >
               <div class="card4" style="background-image: url(Image/CCTV.jpg)">
-                  <div class="text-services">
-                    <h4>CCTV</h4>
-                    <h6>
-                      Jasa Perancangan, Pasang Kamera CCTV dan lainnya
-                    </h6>
+                <div class="text-services">
+                  <h4>CCTV</h4>
+                  <h6>Jasa Perancangan, Pasang Kamera CCTV dan lainnya</h6>
                 </div>
               </div>
             </div>
@@ -339,6 +438,11 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <!--  -->
+
+    <!-- Slider 2 -->
+
     <div class="slider2">
       <div
         class="main-carousel"
@@ -394,6 +498,69 @@
         </div>
       </div>
     </div>
+
+    <!--  -->
+
+    <!-- Logo Perusahaan1 -->
+
+    <div
+      class="logo-perusahaan1 p-5"
+      style="background-color: rgb(22, 21, 37); margin: 80px;"
+    >
+      <h1 class="text-center text-light">OUR CLIENTS</h1>
+      <ul
+        class="d-flex justify-content-between"
+        style="margin: 60px; list-style-type: none"
+      >
+        <li class="logo"><img src="Image/Picture1.jpg" alt="" /></li>
+        <li class="logo"><img src="Image/Picture2.jpg" alt="" /></li>
+        <li class="logo"><img src="Image/Picture3.png" alt="" /></li>
+        <li class="logo"><img src="Image/Picture4.png" alt="" /></li>
+      </ul>
+      <ul
+        class="d-flex justify-content-evenly"
+        style="margin: 60px; list-style-type: none"
+      >
+        <li class="logo"><img src="Image/Picture5.png" alt="" /></li>
+        <li class="logo"><img src="Image/Picture7.jpg" alt="" /></li>
+        <li class="logo"><img src="Image/Picture8.png" alt="" /></li>
+        <li class="logo"><img src="Image/Picture9.png" alt="" /></li>
+        <li class="logo"><img src="Image/Picture6.jpg" alt="" /></li>
+      </ul>
+    </div>
+
+    <!--  -->
+
+    <!-- Logo Perusahaan 2 -->
+
+    <div
+      class="logo-perusahaan2 p-5"
+      style="background-color: rgb(22, 21, 37); margin: 80px;"
+    >
+      <h1 class="text-center text-light">OUR PARTNERSHIP</h1>
+      <ul
+        class="logo2 d-flex justify-content-between"
+        style="margin: 60px; list-style-type: none"
+      >
+        <li class="logo"><img src="Image/Picture10.png" alt="" /></li>
+        <li class="logo"><img src="Image/Picture11.jpg" alt="" /></li>
+        <li class="logo"><img src="Image/Picture12.png" alt="" /></li>
+        <li class="logo"><img src="Image/Picture13.jpg" alt="" /></li>
+      </ul>
+      <ul
+        class="d-flex justify-content-evenly"
+        style="margin: 60px; list-style-type: none"
+      >
+        <li class="logo"><img src="Image/Picture14.jpg" alt="" /></li>
+        <li class="logo"><img src="Image/Picture15.png" alt="" /></li>
+        <li class="logo"><img src="Image/Picture16.png" alt="" /></li>
+      </ul>
+    </div>
+
+    <!--  -->
+
+    <!-- Footer -->
+
     <footer class="w-100">
       <div style="color: #dadada; padding-left: 20px">
         <h6>
@@ -434,12 +601,24 @@
         </div>
       </div>
     </footer>
+
+    <!--  -->
+
+    <!-- Inisialisasi Boostrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+
+    <!--  -->
+
+    <!-- Inisialisasi Flickity -->
+
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!--  -->
+
     <script>
       const myCarouselElement = document.querySelector("#myCarousel");
       const carousel = new bootstrap.Carousel(myCarouselElement, {
