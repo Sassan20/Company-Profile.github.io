@@ -155,6 +155,7 @@ footer .h5 {
     transform: skewY(7deg);
     width: 84%;
     height: 100%;
+    box-shadow: 15px 15px 2px 1px rgb(22, 21, 37);
   }
 
   .card-body {
@@ -176,6 +177,7 @@ footer .h5 {
     padding: 40px;
     display: block;
     border-radius: 10px;
+    box-shadow: 15px 15px 2px 1px rgb(22, 21, 37);
   }
 
   .btn-sl {
