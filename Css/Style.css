@@ -140,6 +140,10 @@ footer .h5 {
   height: 100%;
 }
 
+.text-services{
+  margin-top: 100px;
+}
+
 .card2 {
   display: none;
 }
@@ -164,11 +168,6 @@ footer .h5 {
   display: none;
 }
 
-.cards {
-  display: flex;
-  flex-direction: column;
-}
-
 .card-body {
   background-color: white;
 }
@@ -181,4 +180,13 @@ footer .h5 {
 .copyright {
   padding-left: 20px;
 }
+
+.logo-perusahaan1{
+  display: none;
+}
+
+.logo-perusahaan2{
+  display: none;
+}
+
 }
