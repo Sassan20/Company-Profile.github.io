@@ -118,7 +118,7 @@
         <img src="${n.urlToImage}" class="card-img-top">
         <div>
         <h4 style="color:white;" >${n.title}</h4>
-        <a href="#" class="btn btn-dark"></a>
+        <a href="#" class="btn btn-dark">Selengkapnya...</a>
         </div>
       </div>
       </div>`)
@@ -128,10 +128,16 @@
 coba()
 
 function fet(){
-  return fetch('https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=e28e4a829bd644bca73a7b1d7268e4af')
+  return fetch('../Data/Berita_BBC.json')
   .then(response => response.json())
   .then(response => response.articles)
 }
+
+// function fet(){
+//   return fetch('https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=e28e4a829bd644bca73a7b1d7268e4af')
+//   .then(response => response.json())
+//   .then(response => response.articles)
+// }
 
   </script>
 </body>

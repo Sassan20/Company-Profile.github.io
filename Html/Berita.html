@@ -128,10 +128,15 @@
 coba()
 
 function fet(){
-  return fetch(' https://newsapi.org/v2/top-headlines?country=id&apiKey=e28e4a829bd644bca73a7b1d7268e4af')
+  return fetch('../Data/Berita_Id.json')
   .then(response => response.json())
   .then(response => response.articles)
 }
+// function fet(){
+//   return fetch(' https://newsapi.org/v2/top-headlines?country=id&apiKey=e28e4a829bd644bca73a7b1d7268e4af')
+//   .then(response => response.json())
+//   .then(response => response.articles)
+// }
 
   </script>
 </body>

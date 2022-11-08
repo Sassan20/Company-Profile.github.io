@@ -1,0 +1,136 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Rebel Wilson announces birth of child by surrogate",
+      "description": "The Australian comic actress has described her daughter as a \"beautiful miracle\".",
+      "url": "https://www.bbc.co.uk/news/articles/cxw0zwldjdxo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7bb3/live/2eb8b400-5f5c-11ed-864f-9f80ed77c171.jpg",
+      "publishedAt": "2022-11-08T13:22:18.6685916Z",
+      "content": "The comic actor revealed in June she was in a relationship with female fashion designer Ramona Agruma.\r\nShe said at the time: \"I thought I was searching for a Disney Prince... but maybe what I really… [+1525 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC Sport",
+      "title": "What the stats tell us might happen at Qatar 2022",
+      "description": "Shocks, underperforming holders, play-off qualifiers lasting the course... we look at the stats to see what may happen at this year's World Cup.",
+      "url": "http://www.bbc.co.uk/sport/football/63126367",
+      "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/16371/production/_127039909_worldcuptrophy.jpg",
+      "publishedAt": "2022-11-08T13:07:46.1697727Z",
+      "content": "Which team will get their hands on the World Cup trophy on 18 December?\r\nWhat can previous World Cups tell us about what to expect in Qatar? \r\nIs this year's World Cup tougher? Should teams who quali… [+6978 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Leslie Phillips: Carry On and Harry Potter star dies aged 98",
+      "description": "The star was well known for the Carry On films and as the voice of the sorting hat in Harry Potter.",
+      "url": "http://www.bbc.co.uk/news/entertainment-arts-63557414",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5F23/production/_127555342_lpgettyimages-855038160-1.jpg",
+      "publishedAt": "2022-11-08T13:07:39.2006762Z",
+      "content": "Actor Leslie Phillips, who was known for appearing in the Carry On films, has died aged 98 after a long illness.\r\nPhillips was also familiar to younger fans as the voice of the Sorting Hat in Harry P… [+1798 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Powerball: how to play and other questions answered",
+      "description": "The Powerball US lottery jackpot has been delayed after it reaches a world record $1.9bn.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-63545192",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1805A/production/_127549389_gettyimages-1439302498.jpg",
+      "publishedAt": "2022-11-08T13:07:29.0440538Z",
+      "content": "The draw to claim a record US Powerball jackpot of $1.9bn (£1.7bn) has been delayed, organisers have announced. \r\nThe premier lottery game - which has had no winner in more than three months after 40… [+4534 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC Sport",
+      "title": "Awarding Qatar the World Cup a mistake - Blatter",
+      "description": "Former Fifa president Sepp Blatter says the decision to award the 2022 World Cup to Qatar was a \"mistake\".",
+      "url": "http://www.bbc.co.uk/sport/football/63554507",
+      "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/61DF/production/_127555052_gettyimages-893716012.jpg",
+      "publishedAt": "2022-11-08T13:07:23.9342035Z",
+      "content": "Sepp Blatter first joined Fifa as technical director in 1975 and was voted president in 1998\r\nFormer Fifa president Sepp Blatter says the decision to award the 2022 World Cup to Qatar was a \"mistake\"… [+1627 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Camilla: New monogram for Queen Consort unveiled",
+      "description": "The symbol will be used on personal letterheads, cards and gifts, Buckingham Palace says.",
+      "url": "http://www.bbc.co.uk/news/uk-63547165",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/16A99/production/_127552829_camilla_index_getty.jpg",
+      "publishedAt": "2022-11-08T12:22:18.0764877Z",
+      "content": "The new cypher of Camilla, the Queen Consort, has been unveiled by Buckingham Palace.\r\nDesigned by Prof Ewan Clayton, it combines Camilla's initial \"C\" and \"R\" for Regina - the Latin word for queen.\r… [+1271 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Trudeau accuses China of 'aggressive' election interference",
+      "description": "It follows reports that Canada has identified 11 Beijing-funded candidates at the 2019 elections.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-63551134",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11305/production/_127550407_gettyimages-1243457204.jpg",
+      "publishedAt": "2022-11-08T12:07:22.0281968Z",
+      "content": "Canadian Prime Minister Justin Trudeau has accused China of attempting to interfere in the country's elections.\r\nMr Trudeau accused Beijing of playing \"aggressive games\" with democracies and of targe… [+2833 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Iran International: TV channel says Iran threatened UK-based journalists",
+      "description": "Two Iran International staff have been warned of a risk to their lives, a law enforcement source says.",
+      "url": "http://www.bbc.co.uk/news/world-middle-east-63554305",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C891/production/_127554315_mediaitem127554313.jpg",
+      "publishedAt": "2022-11-08T11:52:23.2787145Z",
+      "content": "Two British-Iranian journalists for the UK-based Persian-language TV channel Iran International have been warned of a possible risk to their lives, a UK law enforcement source has confirmed.\r\nParent … [+3707 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Hushpuppi: Notorious Nigerian fraudster jailed for 11 years in US",
+      "description": "The FBI says ex-social media star Hushpuppi is one of the word's most high-profile money launderers.",
+      "url": "http://www.bbc.co.uk/news/world-africa-63542573",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9636/production/_127545483_mediaitem127545482.jpg",
+      "publishedAt": "2022-11-08T01:22:24.7161562Z",
+      "content": "A notorious Instagram influencer from Nigeria has been jailed for more than 11 years in the US for his role in an international fraud syndicate.\r\nHushpuppi, whose real name was Ramon Abbas, flaunted … [+3250 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Timed Teaser: What did people ditch tweets for?",
+      "description": "Test your knowledge of the news these last few days - 10 questions, 10 seconds each. Go!",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-63491077",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/CB42/production/_127543025_twitindex.jpg",
+      "publishedAt": "2022-11-07T22:22:23.0444432Z",
+      "content": "Test your news knowledge against the clock. Can you outscore your friends? \r\nIf you cannot see the quiz, follow this link.\r\nWant more of the same? Try last week's teaser. Or take Friday's quiz of the… [+76 chars]"
+    }
+  ]
+}
