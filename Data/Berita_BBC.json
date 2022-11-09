@@ -8,25 +8,12 @@
         "name": "BBC News"
       },
       "author": "BBC News",
-      "title": "Rebel Wilson announces birth of child by surrogate",
-      "description": "The Australian comic actress has described her daughter as a \"beautiful miracle\".",
-      "url": "https://www.bbc.co.uk/news/articles/cxw0zwldjdxo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7bb3/live/2eb8b400-5f5c-11ed-864f-9f80ed77c171.jpg",
-      "publishedAt": "2022-11-08T13:22:18.6685916Z",
-      "content": "The comic actor revealed in June she was in a relationship with female fashion designer Ramona Agruma.\r\nShe said at the time: \"I thought I was searching for a Disney Prince... but maybe what I really… [+1525 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "BBC Sport",
-      "title": "What the stats tell us might happen at Qatar 2022",
-      "description": "Shocks, underperforming holders, play-off qualifiers lasting the course... we look at the stats to see what may happen at this year's World Cup.",
-      "url": "http://www.bbc.co.uk/sport/football/63126367",
-      "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/16371/production/_127039909_worldcuptrophy.jpg",
-      "publishedAt": "2022-11-08T13:07:46.1697727Z",
-      "content": "Which team will get their hands on the World Cup trophy on 18 December?\r\nWhat can previous World Cups tell us about what to expect in Qatar? \r\nIs this year's World Cup tougher? Should teams who quali… [+6978 chars]"
+      "title": "Italy earthquake felt in several countries",
+      "description": "A 5.5-magnitude earthquake off Italy's east coast is felt in Rome and parts of the Balkans.",
+      "url": "http://www.bbc.co.uk/news/world-europe-63566575",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1ABE/production/_127564860_a17ec9dc-ba84-48cf-85ca-617c671f22f4.jpg",
+      "publishedAt": "2022-11-09T09:22:16.0201668Z",
+      "content": "A 5.5-magnitude earthquake off the Italian resort of Rimini has been felt across across central Italy and parts of the Balkans.\r\nHouses shook for several seconds on the Adriatic coast and there were … [+969 chars]"
     },
     {
       "source": {
@@ -34,12 +21,103 @@
         "name": "BBC News"
       },
       "author": "BBC News",
-      "title": "Leslie Phillips: Carry On and Harry Potter star dies aged 98",
-      "description": "The star was well known for the Carry On films and as the voice of the sorting hat in Harry Potter.",
-      "url": "http://www.bbc.co.uk/news/entertainment-arts-63557414",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5F23/production/_127555342_lpgettyimages-855038160-1.jpg",
-      "publishedAt": "2022-11-08T13:07:39.2006762Z",
-      "content": "Actor Leslie Phillips, who was known for appearing in the Carry On films, has died aged 98 after a long illness.\r\nPhillips was also familiar to younger fans as the voice of the Sorting Hat in Harry P… [+1798 chars]"
+      "title": "US election: Maxwell Frost to be first Gen Z member of Congress",
+      "description": "The 25-year-old campaigned on gun violence, climate change and expanded healthcare - galvanising young voters.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-63564839",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9296/production/_127562573_gettyimages-1244091665.jpg",
+      "publishedAt": "2022-11-09T08:07:21.5211859Z",
+      "content": "\"We made history for Floridians, for Gen Z, and for everyone who believes we deserve a better future.\"\r\nThis is what a win sounds like for Democrat Maxwell Frost, who - at 25 - is the US Congress' fi… [+2256 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "US election results: What would a Republican-led Congress do?",
+      "description": "Votes are still being counted, but Republicans appear poised to take control of the House.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-63527765",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0CFD/production/_127552330_gettyimages-1244592173-1.jpg",
+      "publishedAt": "2022-11-09T06:37:22.0829704Z",
+      "content": "Millions of votes are yet to be counted in the midterm elections, but early projections indicate that the Republican Party is on course to back control of the US House of Representatives for the firs… [+4650 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Watch: DeSantis victory speech after re-election win",
+      "description": "Florida voters have re-elected Republican candidate Ron DeSantis. DeSantis joined his wife onstage for his victory speech.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-63565205",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/B118/production/_127563354_desantis.jpg",
+      "publishedAt": "2022-11-09T05:37:21.7548237Z",
+      "content": "Watch: DeSantis victory speech after re-election win. Video, 00:00:47Watch: DeSantis victory speech after re-election win"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Abortion election results: Vermont first to put abortion rights in constitution",
+      "description": "Four other states have voted on abortion rights - an issue that is close to the top of voters' priorities.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-63564062",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/10B4A/production/_127562486_gettyimages-1438480161.jpg",
+      "publishedAt": "2022-11-09T05:07:19.5507627Z",
+      "content": "Vermont is set to become the first state in the US to formally enshrine the right to an abortion in the constitution, after more 70% voted in favour of the measure, projections say.\r\nCalifornia, Mont… [+1606 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "US midterm elections: The key governor races to watch",
+      "description": "These candidates have enormous power, as many aspects of American life are decided at the state level.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-63564060",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/3F62/production/_127562261_gettyimages-1242125263.jpg",
+      "publishedAt": "2022-11-09T04:52:24.9422097Z",
+      "content": "As well as deciding which party controls Congress, the US midterm elections on Tuesday will also determine state governors.\r\nThese key figures have enormous power, as many aspects of American life - … [+2571 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "US airport finds gun stuffed in chicken by traveller",
+      "description": "The fowl plan is cracked before boarding by officers at Florida's Fort Lauderdale-Hollywood Airport.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-63564405",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/FED4/production/_127563256_gettyimages-1262815975.jpg",
+      "publishedAt": "2022-11-09T04:22:23.6300772Z",
+      "content": "US transport officials have roasted a passenger online after they were caught trying to smuggle a gun on to a plane by hiding it inside a raw chicken.\r\nThe fowl plot was cracked by Transportation Sec… [+1809 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "US election: Republicans optimistic of House of Representatives win",
+      "description": "The opposition party has been widely expected to retake the House, with the Senate race too close to call.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-63551469",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/12E0E/production/_127562377_voters.jpg",
+      "publishedAt": "2022-11-09T01:37:19.3325956Z",
+      "content": "Media caption, Watch: The moments you have missed from around the US so far\r\nUS Republicans are increasingly optimistic they will win the House of Representatives, as votes are counted from Tuesday's… [+3427 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "How rotisserie 'chicken man' became viral sensation",
+      "description": "Hundreds gathered to witness a man eat his 40th rotisserie chicken, celebrating his odd achievement.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-63560206",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/6F4F/production/_127559482_p0ddtl2k.jpg",
+      "publishedAt": "2022-11-08T17:37:26.3478781Z",
+      "content": "Alexander Tominsky ate a rotisserie every day for 40 days, going on to post flyers around Philadelphia to advertise his last feast. \r\nRoughly 500 people gathered to be a part of history, as the onlin… [+57 chars]"
     },
     {
       "source": {
@@ -48,89 +126,11 @@
       },
       "author": "BBC News",
       "title": "Powerball: how to play and other questions answered",
-      "description": "The Powerball US lottery jackpot has been delayed after it reaches a world record $1.9bn.",
+      "description": "Winners, if any, will be announced after national results are certified following a delay on Monday.",
       "url": "http://www.bbc.co.uk/news/world-us-canada-63545192",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1805A/production/_127549389_gettyimages-1439302498.jpg",
-      "publishedAt": "2022-11-08T13:07:29.0440538Z",
-      "content": "The draw to claim a record US Powerball jackpot of $1.9bn (£1.7bn) has been delayed, organisers have announced. \r\nThe premier lottery game - which has had no winner in more than three months after 40… [+4534 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "BBC Sport",
-      "title": "Awarding Qatar the World Cup a mistake - Blatter",
-      "description": "Former Fifa president Sepp Blatter says the decision to award the 2022 World Cup to Qatar was a \"mistake\".",
-      "url": "http://www.bbc.co.uk/sport/football/63554507",
-      "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/61DF/production/_127555052_gettyimages-893716012.jpg",
-      "publishedAt": "2022-11-08T13:07:23.9342035Z",
-      "content": "Sepp Blatter first joined Fifa as technical director in 1975 and was voted president in 1998\r\nFormer Fifa president Sepp Blatter says the decision to award the 2022 World Cup to Qatar was a \"mistake\"… [+1627 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "BBC News",
-      "title": "Camilla: New monogram for Queen Consort unveiled",
-      "description": "The symbol will be used on personal letterheads, cards and gifts, Buckingham Palace says.",
-      "url": "http://www.bbc.co.uk/news/uk-63547165",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/16A99/production/_127552829_camilla_index_getty.jpg",
-      "publishedAt": "2022-11-08T12:22:18.0764877Z",
-      "content": "The new cypher of Camilla, the Queen Consort, has been unveiled by Buckingham Palace.\r\nDesigned by Prof Ewan Clayton, it combines Camilla's initial \"C\" and \"R\" for Regina - the Latin word for queen.\r… [+1271 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "BBC News",
-      "title": "Trudeau accuses China of 'aggressive' election interference",
-      "description": "It follows reports that Canada has identified 11 Beijing-funded candidates at the 2019 elections.",
-      "url": "http://www.bbc.co.uk/news/world-us-canada-63551134",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11305/production/_127550407_gettyimages-1243457204.jpg",
-      "publishedAt": "2022-11-08T12:07:22.0281968Z",
-      "content": "Canadian Prime Minister Justin Trudeau has accused China of attempting to interfere in the country's elections.\r\nMr Trudeau accused Beijing of playing \"aggressive games\" with democracies and of targe… [+2833 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "BBC News",
-      "title": "Iran International: TV channel says Iran threatened UK-based journalists",
-      "description": "Two Iran International staff have been warned of a risk to their lives, a law enforcement source says.",
-      "url": "http://www.bbc.co.uk/news/world-middle-east-63554305",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C891/production/_127554315_mediaitem127554313.jpg",
-      "publishedAt": "2022-11-08T11:52:23.2787145Z",
-      "content": "Two British-Iranian journalists for the UK-based Persian-language TV channel Iran International have been warned of a possible risk to their lives, a UK law enforcement source has confirmed.\r\nParent … [+3707 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "BBC News",
-      "title": "Hushpuppi: Notorious Nigerian fraudster jailed for 11 years in US",
-      "description": "The FBI says ex-social media star Hushpuppi is one of the word's most high-profile money launderers.",
-      "url": "http://www.bbc.co.uk/news/world-africa-63542573",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9636/production/_127545483_mediaitem127545482.jpg",
-      "publishedAt": "2022-11-08T01:22:24.7161562Z",
-      "content": "A notorious Instagram influencer from Nigeria has been jailed for more than 11 years in the US for his role in an international fraud syndicate.\r\nHushpuppi, whose real name was Ramon Abbas, flaunted … [+3250 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "BBC News",
-      "title": "Timed Teaser: What did people ditch tweets for?",
-      "description": "Test your knowledge of the news these last few days - 10 questions, 10 seconds each. Go!",
-      "url": "http://www.bbc.co.uk/news/world-us-canada-63491077",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/CB42/production/_127543025_twitindex.jpg",
-      "publishedAt": "2022-11-07T22:22:23.0444432Z",
-      "content": "Test your news knowledge against the clock. Can you outscore your friends? \r\nIf you cannot see the quiz, follow this link.\r\nWant more of the same? Try last week's teaser. Or take Friday's quiz of the… [+76 chars]"
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/14FCD/production/_127556958_gettyimages-1439925197.jpg",
+      "publishedAt": "2022-11-08T17:07:25.1294154Z",
+      "content": "The draw to claim a record US Powerball jackpot of $2.04bn (£1.7bn) took place on Tuesday morning after being delayed. \r\nThe premier lottery game - which has had no winner in more than three months a… [+5515 chars]"
     }
   ]
 }

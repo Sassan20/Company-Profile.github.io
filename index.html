@@ -15,38 +15,14 @@
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
     <link rel="stylesheet" href="Css/Style.css" />
-    <style>
-      .Image-slide1 {
-        height: 520px;
-        margin-top: 55px;
-        background-image: url(Image/Landing-Page.jpg);
-        background-size: cover;
-        background-position: center;
-      }
-      .Image-slide2 {
-        height: 520px;
-        margin-top: 55px;
-        background-image: url(Image/Office.jpg);
-        background-size: cover;
-        background-position: center;
-      }
-      .Image-slide3 {
-        height: 520px;
-        margin-top: 55px;
-        background-image: url(Image/Bisnis.jpg);
-        background-size: cover;
-        background-position: center;
-      }
-
-    </style>
   </head>
   <body>
 
 <!-- Navbar -->
-
+    <div class="navbar1">
     <nav
       class="navbar navbar-dark fixed-top"
-      style="background-color: rgb(1, 0, 19)"
+      style="background-color: #0a1c42"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
@@ -65,7 +41,7 @@
           id="offcanvasDarkNavbar"
           aria-labelledby="offcanvasDarkNavbarLabel"
         >
-          <div class="offcanvas-header">
+          <div class="offcanvas-header" style="background-color: #052261;">
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
               Dark offcanvas
             </h5>
@@ -76,7 +52,7 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
+          <div class="offcanvas-body" style="background-color: #052261;">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li><a class="dropdown-item p-2" href="index.html">Home</a></li>
               <li>
@@ -102,7 +78,7 @@
                 >
                   Dropdown
                 </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
+                <ul class="dropdown-menu dropdown-menu-light">
                   <li><h6 class="p-2">Headline News</h6></li>
                   <li>
                     <hr class="dropdown-divider" />
@@ -127,150 +103,189 @@
         </div>
       </div>
     </nav>
+  </div>
+
+  <div class="navbar3">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #052261;">
+      <div class="container">
+        <a class="navbar-brand text-light" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"">
+              <a class="nav-link text-light" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="Html/About.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="Html/Project.html">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="Html/Client.html">Clients</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Headline News</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./Html/Berita.html">Seputar Indonesia</a></li>
+                <li><a class="dropdown-item" href="./Html/Berita_Dunia.html">BBC News</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
 
     <!--  -->
 
     <!-- Slaider Utama -->
 
-    <div
-      id="carouselExampleControls"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner w-100">
+  <!-- <div class="text-center" style="margin-top: 65px;">
+    <h2 class="text-center">Bangun Perusahaanmu Dengan Teknologi Saat Ini Agar <br> Lebih Maju!<h2>
+    <img class="gambar my-3" src="Image/business3.png" alt="">
+  </div> -->
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="text-center" style="margin-top: 65px;">
+          <h2 class="text-center">Bangun Perusahaanmu Dengan Teknologi Saat Ini Agar <br> Lebih Maju!<h2>
+          <img class="gambar my-3" src="Image/business.png" alt="">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="text-center" style="margin-top: 65px;">
+          <h2 class="text-center">Bangun Perusahaanmu Dengan Teknologi Saat Ini Agar <br> Lebih Maju!<h2>
+          <img class="gambar" style="margin: 8.3% 0;" src="Image/laptop.png" alt="">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+    
+
+    <!--  -->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="Image-slide1 d-block w-100">
-            <div class="p-5 text-center">
-              <h1 style="color: rgb(0, 0, 0); text-shadow: 1px 2px 2px rgb(255, 255, 255)">
-                KAMI APIK TECHNOLOGY
-              </h1>
-            </div>
+          <div class="about w-75" style="height: 640px;">
+            <header class="text-center p-3" style="color: rgb(24, 23, 23)">
+              <h1>ABOUT US</h1>
+            </header>
+            <p class="text-center">
+              CV. Sandi Sukses Teknologi merupakan perusahaan yang bergerak dibidang
+              penyedia jasa ICT (Information Communication Technology) yang secara
+              khusus memberikan layanan pengadaan dan konsultansi berbagai produk ICT.
+              Kami merupakan putra-putri Indonesia yang tinggal dipinggiran Kota yang
+              berpengalaman dan memiliki kretifitas dibidang ICT dan Multimedia.
+              <br /><br />
+      
+              Kami selalu menciptakan ide-ide dan hal-hal baru untuk kemajuan
+              technology information di Indonesia, kami Anak Pinggiran Kreatif (APIK)
+              yang berkomitmen untuk selalu menjaga COOPERATION terhadap semua mitra
+              bisnis kami. COOPERATION yang kami maksud tertuang dalam tata nilai
+              perusahaan kami.
+            </p>
           </div>
         </div>
         <div class="carousel-item">
-          <div class="Image-slide2 d-block w-100">
-            <div class="p-5">
-              <h1 style="color: rgb(0, 0, 0); text-shadow: 1px 2px 2px rgb(255, 255, 255)">
-                KAMI KONSULTAN IT.
-              </h1>
-            </div>
+          <div class="corporate w-75">
+            <header class="text-center p-3" style="color: rgb(24, 23, 23)">
+              <h1>CORPORATE VALUES</h1>
+            </header>
+            <h4 style="padding-left: 30px">
+              Care Focus Open Mind Excellence Integrity Inovation
+            </h4>
+            <p style="padding-left: 30px">
+              ● Care <br />
+              Bersikap peduli, berempati dan responsif dalam memberikan pelayanan
+              <br />
+              yang melebihi harapan mitra kerja. <br />
+              ● Focus <br />
+              Mengedepankan dan mendedikasikan diri pada pengembangan ICT <br />
+              yang koprehensif dan transparan. <br />
+              ● Open Mind <br />
+              Bersikap objektif dan komunikatif untuk mencapai kinerja yang lebih
+              baik.
+              <br />
+              ● Excellence <br />
+              Berorientasi pada kepuasan dan kanginan mitra dengan mengedepankan
+              ketepatan kualitas <br />
+              dan hasil yang memuaskan. <br />
+              ● Integrity <br />
+              Jujur, tulus dan dapat di percaya dalam berfikir, berkata dan bertindak
+              <br />
+              ● Inovation <br />
+              Kreatif dalam segala hal untuk menghasilkan nilai tambah bagi mitra
+            </p>
           </div>
         </div>
         <div class="carousel-item">
-          <div class="Image-slide3 d-block w-100">
-            <div class="p-5">
-              <h1 style="color: rgb(0, 0, 0); text-shadow: 1px 2px 2px rgb(255, 255, 255)">
-                KAMI KONSULTAN BISNIS
-              </h1>
-            </div>
+          <div class="vision w-75" style="height: 640px;">
+            <header class="text-center p-3" style="color: rgb(24, 23, 23)">
+              <h1>OUR VISION & MISSION</h1>
+            </header>
+            <h5 style="padding-left: 30px">⫸ Visi</h5>
+            <p style="padding-left: 30px">
+              ● Menjadi perusahaan IT terkemuka dan profitable di Indonesia <br />
+            </p>
+            <h5 style="padding-left: 30px">⫸ Misi</h5>
+            <p style="padding-left: 30px">
+              ● Memberikan solusi yang optimal kepada mitra kerja dalam mengatasi
+              berbagai <br />
+              permasalahan di dunia teknologi informasi dan manajemen bisnis. <br />
+              ● Memberikan produk dan layanan yang berkualitas mengikuti perkembangan
+              dunia <br />
+              teknologi informasi terkini dengan layanan purna jual dan pendampingan
+              yang maksimal kepada setiap mitra kerja. <br />
+              ● Mengedepankan profesionalisme, kemampuan individu dan team dalam
+              menghasilkan produk produk terbaik. <br />
+            </p>
           </div>
         </div>
       </div>
-      <div data-bs-target="#carouselExampleControls" data-bs-slide="prev"></div>
-      <div data-bs-target="#carouselExampleControls" data-bs-slide="next"></div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
-    <!--  -->
-
-    <!-- ABOUT US -->
-
-    <div class="about w-75">
-      <header class="text-center p-3" style="color: #dadada">
-        <h1>ABOUT US</h1>
-      </header>
-      <p class="text-center">
-        CV. Sandi Sukses Teknologi merupakan perusahaan yang bergerak dibidang
-        penyedia jasa ICT (Information Communication Technology) yang secara
-        khusus memberikan layanan pengadaan dan konsultansi berbagai produk ICT.
-        Kami merupakan putra-putri Indonesia yang tinggal dipinggiran Kota yang
-        berpengalaman dan memiliki kretifitas dibidang ICT dan Multimedia.
-        <br /><br />
-
-        Kami selalu menciptakan ide-ide dan hal-hal baru untuk kemajuan
-        technology information di Indonesia, kami Anak Pinggiran Kreatif (APIK)
-        yang berkomitmen untuk selalu menjaga COOPERATION terhadap semua mitra
-        bisnis kami. COOPERATION yang kami maksud tertuang dalam tata nilai
-        perusahaan kami.
-      </p>
-    </div>
-
-    <!--  -->
-
-    <!-- CORPORATE VALUES  -->
-
-    <div class="corporate w-75">
-      <header class="text-center p-3" style="color: #dadada">
-        <h1>CORPORATE VALUES</h1>
-      </header>
-      <h4 style="padding-left: 30px">
-        Care Focus Open Mind Excellence Integrity Inovation
-      </h4>
-      <p style="padding-left: 30px">
-        ● Care <br />
-        Bersikap peduli, berempati dan responsif dalam memberikan pelayanan
-        <br />
-        yang melebihi harapan mitra kerja. <br />
-        ● Focus <br />
-        Mengedepankan dan mendedikasikan diri pada pengembangan ICT <br />
-        yang koprehensif dan transparan. <br />
-        ● Open Mind <br />
-        Bersikap objektif dan komunikatif untuk mencapai kinerja yang lebih
-        baik.
-        <br />
-        ● Excellence <br />
-        Berorientasi pada kepuasan dan kanginan mitra dengan mengedepankan
-        ketepatan kualitas <br />
-        dan hasil yang memuaskan. <br />
-        ● Integrity <br />
-        Jujur, tulus dan dapat di percaya dalam berfikir, berkata dan bertindak
-        <br />
-        ● Inovation <br />
-        Kreatif dalam segala hal untuk menghasilkan nilai tambah bagi mitra
-      </p>
-    </div>
-
-    <!--  -->
-
-    <!-- VISION & MISSION  -->
-
-    <div class="vision w-75">
-      <header class="text-center p-3" style="color: #dadada">
-        <h1>OUR VISION & MISSION</h1>
-      </header>
-      <h5 style="padding-left: 30px">⫸ Visi</h5>
-      <p style="padding-left: 30px">
-        ● Menjadi perusahaan IT terkemuka dan profitable di Indonesia <br />
-      </p>
-      <h5 style="padding-left: 30px">⫸ Misi</h5>
-      <p style="padding-left: 30px">
-        ● Memberikan solusi yang optimal kepada mitra kerja dalam mengatasi
-        berbagai <br />
-        permasalahan di dunia teknologi informasi dan manajemen bisnis. <br />
-        ● Memberikan produk dan layanan yang berkualitas mengikuti perkembangan
-        dunia <br />
-        teknologi informasi terkini dengan layanan purna jual dan pendampingan
-        yang maksimal kepada setiap mitra kerja. <br />
-        ● Mengedepankan profesionalisme, kemampuan individu dan team dalam
-        menghasilkan produk produk terbaik. <br />
-      </p>
-    </div>
-
-    <!--  -->
-
-    <div class="card-about bg-white w-75 opacity-75">
-      <div class="card-body p-3" style="border-radius: 7px;">
-        <h5 class="card-title">About Us</h5>
-        <h5 class="card-title">Corporate Values</h5>
-        <h5 class="card-title">Our Vision & Mission</h5>
-        <h5 class="card-title">Our Team</h5>
-        <a href="Html/About.html" class="card-link d-block text-dark" style="padding-top: 10px; font-size: 20px;">Selengkapnya tentang Kami -></a>
+    <div class="card-about w-75">
+      <div class="card-body p-4" style="color: rgb(87, 87, 87);">
+        <h5>About Us</h5>
+        <h5>Corporate Values</h5>
+        <h5>Our Vision & Mission</h5>
+        <h5>Our Team</h5>
+        <a href="Html/About.html" class="card-link" style="padding-top: 10px; font-size: 20px; color:  rgb(87, 87, 87);">See More</a>
       </div>
     </div>
 
     <!-- SERVICES -->
-
-    
-    <!--  -->
     
     <!-- Slider 1 -->
     
@@ -280,7 +295,7 @@
         class="carousel carousel-dark slide"
         data-bs-ride="carousel"
       >
-      <header class="text-center" style="color: #dadada; margin-top: 50px; transform: skewY(8deg);">
+      <header class="text-center" style="color: #0c0c0c; transform: skewY(8deg);">
         <h1>OUR SERVICES</h1>
       </header>
         <div class="carousel-indicators">
@@ -325,12 +340,11 @@
             >
               <div
                 class="card h-100"
-                style="background-image: url(Image/Hardware.jpg)"
+                style="background-color:brown; color: white; text-shadow: 1px 1px 1px black;"
               >
-                <div class="text-services">
+              <img class="w-50 h-50" src="Assets/motherboard.svg" alt="">
                   <h5>Hardware</h5>
                   <h6>Perbaikan Laptop/Komputer Atau Penggatian Hardware</h6>
-                </div>
               </div>
               <div
                 class="card2"
@@ -352,14 +366,13 @@
             >
               <div
                 class="card h-100"
-                style="background-image: url(Image/Network.jpg)"
+                style="background-color: cornflowerblue; color: white; text-shadow: 1px 1px 1px black;"
               >
-                <div class="text-services">
+              <img class="w-50 h-50" src="Assets/router.svg" alt="">
                   <h5>Network</h5>
                   <h6>
                     Jasa Pembuatan Jaringan Komputer Atau jaringan Internet
                   </h6>
-                </div>
               </div>
             </div>
           </div>
@@ -370,16 +383,15 @@
             >
               <div
                 class="card h-100"
-                style="background-image: url(Image/video-editing.jpg)"
+                style="background-color: darkolivegreen; color: white; text-shadow: 1px 1px 1px black;"
               >
-                <div class="text-services">
+              <img class="w-50 h-50" src="Assets/airplayvideo.svg" alt="">
                   <h5>Desain/Editing Video</h5>
                   <h6>Jasa Desain Grafis, Editing Video & Video Drone</h6>
-                </div>
               </div>
               <div
                 class="card2 p-5 w-25 h-25"
-                style="border: none; background-color: #daebe8"
+                style="border: none; background-color: #daebe8;"
               >
                 <div
                   class="image"
@@ -400,12 +412,10 @@
             >
               <div
                 class="card4"
-                style="background-image: url(Image/Development.jpg)"
-              >
-                <div class="text-services">
+                style="background-color: darkviolet; color: white; text-shadow: 1px 1px 1px black;"
+              ><img class="w-50 h-50" src="Assets/laptop.svg" alt="">
                   <h5>Development</h5>
                   <h6>Pembuatan Aplikasi/Sitem, Website, Dekstop & Mobile</h6>
-                </div>
               </div>
             </div>
           </div>
@@ -414,11 +424,10 @@
               class="w-100 p-5 d-flex justify-content-evenly"
               style="height: 400px"
             >
-              <div class="card4" style="background-image: url(Image/CCTV.jpg)">
-                <div class="text-services">
+              <div class="card4" style="background-color: darkorange; color: white; text-shadow: 1px 1px 1px black;">
+                <img class="w-50 h-50" src="Assets/webcam.svg" alt="">
                   <h5>CCTV</h5>
                   <h6>Jasa Perancangan, Pasang Kamera CCTV dan lainnya</h6>
-                </div>
               </div>
             </div>
           </div>
@@ -506,8 +515,10 @@
 
     <!--  -->
 
+    <!--  -->
+
     <div class="w-100">
-      <div class="slider3">
+      <div class="slider5">
         <div
           id="carouselExampleDark"
           class="carousel carousel-dark slide"
@@ -617,17 +628,40 @@
       <div class="card-body p-5 bg-white">
         <h5 class="card-title">Clients & PartnerShip</h5>
         <p class="card-text">Terimakasih kepada Seluruh Instansi Yang Telah Mendukung dan Mensupport Perusahaan Kami.</p>
-        <a href="Html/Client.html" class="btn btn-dark">Selengkap nya...</a>
+        <a href="Html/Client.html" class="btn btn-dark">See More</a>
       </div>
     </div>
 
-    <!-- Logo Perusahaan1 -->
-
-    <div
-      class="logo-perusahaan1 p-5"
-      style="background-color: rgb(22, 21, 37); margin: 80px; border-radius: 15px;"
+    <!-- Logo Perusahaan -->
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active bg-light"
+            aria-current="true"
+            aria-label="Slide 1"
+            ></button>
+            <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            class="active bg-light"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <div
+      class="logo-perusahaan1"
+      style="background-color: #EFFFFD; margin: 80px; border-radius: 15px;"
     >
-      <h1 class="text-center text-light">OUR CLIENTS</h1>
+      <h1 class="text-center">OUR CLIENTS</h1>
       <ul
         class="d-flex justify-content-between"
         style="margin: 60px; list-style-type: none"
@@ -648,41 +682,60 @@
         <li class="logo"><img src="Image/Picture6.jpg" alt="" /></li>
       </ul>
     </div>
-
-    <!--  -->
-
-    <!-- Logo Perusahaan 2 -->
-
-    <div
-      class="logo-perusahaan2 p-5"
-      style="background-color: rgb(22, 21, 37); margin: 80px; border-radius: 15px;"
-    >
-      <h1 class="text-center text-light">OUR PARTNERSHIP</h1>
-      <ul
-        class="logo2 d-flex justify-content-between"
-        style="margin: 60px; list-style-type: none"
+          </div>
+          <div class="carousel-item Perusahaan2" data-bs-interval="2000">
+            <div
+            class="logo-perusahaan2"
+            style="background-color: #EFFFFD; margin: 80px; border-radius: 15px;"
+          >
+            <h1 class="text-center">OUR PARTNERSHIP</h1>
+            <ul
+              class="logo2 d-flex p-5 justify-content-between"
+              style="margin: 60px; list-style-type: none"
+            >
+              <li class="logo"><img src="Image/Picture10.png" alt="" /></li>
+              <li class="logo"><img src="Image/Picture11.jpg" alt="" /></li>
+              <li class="logo"><img src="Image/Picture12.png" alt="" /></li>
+              <li class="logo"><img src="Image/Picture13.jpg" alt="" /></li>
+            </ul>
+            <ul
+              class="d-flex justify-content-evenly"
+              style="margin: 60px; list-style-type: none"
+            >
+              <li class="logo"><img src="Image/Picture14.jpg" alt="" /></li>
+              <li class="logo"><img src="Image/Picture15.png" alt="" /></li>
+              <li class="logo"><img src="Image/Picture16.png" alt="" /></li>
+            </ul>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
       >
-        <li class="logo"><img src="Image/Picture10.png" alt="" /></li>
-        <li class="logo"><img src="Image/Picture11.jpg" alt="" /></li>
-        <li class="logo"><img src="Image/Picture12.png" alt="" /></li>
-        <li class="logo"><img src="Image/Picture13.jpg" alt="" /></li>
-      </ul>
-      <ul
-        class="d-flex justify-content-evenly"
-        style="margin: 60px; list-style-type: none"
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
       >
-        <li class="logo"><img src="Image/Picture14.jpg" alt="" /></li>
-        <li class="logo"><img src="Image/Picture15.png" alt="" /></li>
-        <li class="logo"><img src="Image/Picture16.png" alt="" /></li>
-      </ul>
-    </div>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
 
     <!--  -->
 
     <!-- Footer -->
 
     <footer class="w-100">
-      <div style="color: #dadada; padding-left: 20px">
+      <div style="color: whitesmoke; padding-left: 20px">
         <h6>
           JL.Karya Darma, Gg.Kasijah No.4, Pangkalan Mansyur, <br />
           Medan Johor-Kota Medan Sumatera Utara-Indonesia <br />
@@ -693,7 +746,7 @@
       <div class="text-footer w-100 h-100 d-flex">
         <h6
           class="copyright w-100"
-          style="color: #dadada; padding-left: 20px; padding-top: 10px"
+          style="color: whitesmoke; padding-left: 20px; padding-top: 10px"
         >
           copyright©2022 Apik Technologi. <br />All Rights Reserved
         </h6>
@@ -742,7 +795,7 @@
     <script>
       const myCarouselElement = document.querySelector("#myCarousel");
       const carousel = new bootstrap.Carousel(myCarouselElement, {
-        interval: 250,
+        interval: 150,
         wrap: false,
         wrapAround: true,
       });

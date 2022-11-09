@@ -30,9 +30,52 @@
     </style>
   </head>
   <body>
+    <div class="navbar3">
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #052261;">
+        <div class="container">
+          <a class="navbar-brand text-light" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./About.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./Project.html">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./Client.html">Clients</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Headline News</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./Berita.html">Seputar Indonesia</a></li>
+                  <li><a class="dropdown-item" href="./Berita_Dunia.html">BBC News</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="navbar1">
     <nav
       class="navbar navbar-dark fixed-top"
-      style="background-color: rgb(1, 0, 19)"
+      style="background-color:#052261"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
@@ -51,7 +94,7 @@
           id="offcanvasDarkNavbar"
           aria-labelledby="offcanvasDarkNavbarLabel"
         >
-          <div class="offcanvas-header">
+          <div class="offcanvas-header" style="background-color: #052261;">
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
               Dark offcanvas
             </h5>
@@ -62,17 +105,25 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
+          <div class="offcanvas-body" style="background-color: #052261;">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li><a class="dropdown-item p-2" href="../index.html">Home</a></li>
               <li>
-                <a class="dropdown-item p-2" href="./About.html">About Us</a>
+                <a class="dropdown-item p-2" href="../index.html">Home</a>
               </li>
               <li>
-                <a class="dropdown-item p-2" href="./Project.html">Project</a>
+                <a class="dropdown-item p-2" href="../Html/About.html"
+                  >About Us</a
+                >
               </li>
               <li>
-                <a class="dropdown-item p-2" href="./Client.html">Client</a>
+                <a class="dropdown-item p-2" href="../Html/Project.html"
+                  >Project</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item p-2" href="../Html/Client.html"
+                  >client</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -84,7 +135,7 @@
                 >
                   Dropdown
                 </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
+                <ul class="dropdown-menu dropdown-menu-light">
                   <li><h6 class="p-2">Headline News</h6></li>
                   <li>
                     <hr class="dropdown-divider" />
@@ -109,10 +160,11 @@
         </div>
       </div>
     </nav>
+  </div>
 
     <!-- ABOUT US -->
     <div class="about w-75">
-      <header class="text-center" style="color: #dadada">
+      <header class="text-center" style="color: rgb(24, 23, 23)">
         <h1>ABOUT US</h1>
       </header>
       <p class="text-center p-2">
@@ -132,7 +184,7 @@
     </div>
     <!-- CORPORATE VALUES  -->
     <div class="corporate w-75">
-      <header class="text-center p-3" style="color: #dadada">
+      <header class="text-center p-3" style="color: rgb(24, 23, 23)">
         <h1>CORPORATE VALUES</h1>
       </header>
       <h5 style="padding-left: 20px">
@@ -163,7 +215,7 @@
     </div>
     <!-- VISION & MISSION  -->
     <div class="vision w-75">
-      <header class="text-center" style="color: #dadada">
+      <header class="text-center" style="color: rgb(24, 23, 23)">
         <h1>OUR VISION & MISSION</h1>
       </header>
       <h5 style="padding-left: 30px">⫸ Visi</h5>
@@ -185,13 +237,13 @@
     </div>
     <!-- Our Team -->
     <div
-      class="p-2 w-75 h-100"
-      style="background-color: rgb(22, 21, 37); margin: 5% 12%; border-radius: 15px;"
+      class="team p-2 w-75 h-100"
+      style="background-color: #eef6ff; margin: 5% 12%; border-radius: 15px;"
     >
       <h1 class="text-center text-light" style="margin-top: 40px;">OUR PARTNERSHIP</h1>
       <div class="Team" style="display: flex;">
       <ul
-        class="text-light t"
+        class="t"
         style="margin: 20px; list-style-type: none"
       >
         <li style="padding-top: 20px;"><h4>ROBBY SANDI, S.KOM <br><h6>CEO </h6></h4></li>
@@ -201,7 +253,7 @@
         <li style="padding-top: 20px;"><h4>HARDI HANDOKO, S.KOM <br><h6> PILOT DRONE</h6></h4></li>
       </ul>
       <ul
-        class="text-light t"
+        class="t"
         style="margin: 20px; list-style-type: none"
       >
         <li style="padding-top: 20px;"><h4>AGUNG HIDAYAH <br> <h6> DIGITAL MARKETING </h6></h4></li>

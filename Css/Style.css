@@ -1,37 +1,24 @@
-body {
-  background-color: rgb(1, 0, 19);
+.gambar{
+  width: 37%;
+  height: 40%;
 }
 
-.Image-slide1 {
-  height: 520px;
-  background-image: url(Image/Landing-Page.jpg);
-  background-size: cover;
-  background-position: center;
+.navbar1{
+  display: none;
 }
-
-.Image-slide2 {
-  height: 520px;
-  background-image: url(Image/Office.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.Image-slide3 {
-  height: 520px;
-  background-image: url(Image/Bisnis.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
 .berita{
   margin: 2%;
+}
+
+.nav-item:hover{
+  border-bottom: 2px solid white;
 }
 
 .about,
 .corporate,
 .vision {
-  color: #dadada;
-  background-color: rgb(22, 21, 37);
+  color: rgb(36, 35, 35);
+  background-color: #eef6ff;
   padding: 70px;
   margin: 5% 12%;
   border-radius: 8px;
@@ -39,7 +26,7 @@ body {
 
 footer {
   padding-top: 30px;
-  background-color: rgb(22, 21, 37);
+  background-color:  #0a1c42;
 }
 
 .sosmed {
@@ -113,6 +100,9 @@ footer .h5 {
 .slider3 {
   display: none;
 }
+.slider5 {
+  display: none;
+}
 
 .cell {
   padding: 20px;
@@ -125,6 +115,10 @@ footer .h5 {
   padding: 20px;
   padding-top: 140px;
   border-radius: 10px;
+  transition: .5s;
+}
+.image:hover {
+    box-shadow: 10px 10px 10px 5px  rgb(207, 204, 247);
 }
 
 .text-services {
@@ -136,6 +130,23 @@ footer .h5 {
 }
 
 @media (max-width: 720px) {
+
+  .dropdown-item{
+    width: 50%;
+    border-bottom: 1px solid white;
+  }
+
+  .gambar{
+    width: 75%;
+  }
+
+  .navbar3{
+    display: none;
+  }
+
+  .navbar1{
+    display: block;
+  }
 
   .berita{
     margin: 2%;
@@ -163,13 +174,14 @@ footer .h5 {
     transform: skewY(7deg);
     width: 84%;
     height: 100%;
-    box-shadow: 15px 15px 2px 1px rgb(22, 21, 37);
+    box-shadow: 15px 15px 2px 1px rgb(207, 204, 247);
   }
-
+  
   .card-body {
+    background-color: #c2e1ff;
+    border-radius:30px 0 30px 0;
     display: block;
   }
-
   .text-services {
     margin-top: 100px;
   }
@@ -185,7 +197,7 @@ footer .h5 {
     padding: 40px;
     display: block;
     border-radius: 10px;
-    box-shadow: 15px 15px 2px 1px rgb(22, 21, 37);
+    box-shadow: 15px 15px 2px 1px  rgb(207, 204, 247);
   }
 
   .btn-sl {
@@ -207,13 +219,17 @@ footer .h5 {
 
   .card-body1 {
     margin-top: 60px;
-    background-color: white;
     border: none;
   }
 
   .card-about {
-    margin: 50px 48px;
+    margin: 20% 12%;
     transition: .3s;
+  }
+  .card-about:hover {
+    border-radius:30px 0 30px 0;
+    box-shadow: -15px 15px 2px 1px  rgb(207, 204, 247);
+
   }
 
   .card-about:hover {
@@ -233,6 +249,9 @@ footer .h5 {
     display: none;
   }
 
+  .perusahaan2 {
+    display: none;
+  }
   .logo-perusahaan2 {
     display: none;
   }

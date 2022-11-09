@@ -14,9 +14,53 @@
     <link rel="stylesheet" href="../Css/Style.css" />
   </head>
   <body>
+
+    <div class="navbar3">
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #052261;">
+        <div class="container">
+          <a class="navbar-brand text-light" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./About.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./Project.html">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./Client.html">Clients</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Headline News</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./Berita.html">Seputar Indonesia</a></li>
+                  <li><a class="dropdown-item" href="./Berita_Dunia.html">BBC News</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="navbar1">
     <nav
       class="navbar navbar-dark fixed-top"
-      style="background-color: rgb(1, 0, 19)"
+      style="background-color:#052261"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
@@ -35,7 +79,7 @@
           id="offcanvasDarkNavbar"
           aria-labelledby="offcanvasDarkNavbarLabel"
         >
-          <div class="offcanvas-header">
+          <div class="offcanvas-header" style="background-color: #052261;">
             <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
               Dark offcanvas
             </h5>
@@ -46,7 +90,7 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
+          <div class="offcanvas-body" style="background-color: #052261;">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li>
                 <a class="dropdown-item p-2" href="../index.html">Home</a>
@@ -76,7 +120,7 @@
                 >
                   Dropdown
                 </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
+                <ul class="dropdown-menu dropdown-menu-light">
                   <li><h6 class="p-2">Headline News</h6></li>
                   <li>
                     <hr class="dropdown-divider" />
@@ -101,12 +145,13 @@
         </div>
       </div>
     </nav>
+  </div>
 
     <!-- Logo Perusahaan1 -->
 
     <div
       class="logo-perusahaan1 p-5"
-      style="background-color: rgb(22, 21, 37); margin: 80px"
+      style="background-color: #EFFFFD; margin: 80px"
     >
       <h1 class="text-center text-light">OUR CLIENTS</h1>
       <ul
@@ -136,7 +181,7 @@
 
     <div
       class="logo-perusahaan2 p-5"
-      style="background-color: rgb(22, 21, 37); margin: 80px"
+      style="background-color: #EFFFFD; margin: 80px"
     >
       <h1 class="text-center text-light">OUR PARTNERSHIP</h1>
       <ul
