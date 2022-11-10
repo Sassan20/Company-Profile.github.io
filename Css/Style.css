@@ -1,16 +1,18 @@
-.gambar{
+.gambar {
+  margin-top: 10px;
   width: 37%;
   height: 40%;
 }
 
-.navbar1{
+.navbar1 {
   display: none;
 }
-.berita{
+
+.berita {
   margin: 2%;
 }
 
-.nav-item:hover{
+.nav-item:hover {
   border-bottom: 2px solid white;
 }
 
@@ -26,7 +28,7 @@
 
 footer {
   padding-top: 30px;
-  background-color:  #0a1c42;
+  background-color: #0a1c42;
 }
 
 .sosmed {
@@ -100,6 +102,7 @@ footer .h5 {
 .slider3 {
   display: none;
 }
+
 .slider5 {
   display: none;
 }
@@ -117,8 +120,9 @@ footer .h5 {
   border-radius: 10px;
   transition: .5s;
 }
+
 .image:hover {
-    box-shadow: 10px 10px 10px 5px  rgb(207, 204, 247);
+  box-shadow: 10px 10px 10px 5px rgb(207, 204, 247);
 }
 
 .text-services {
@@ -129,26 +133,35 @@ footer .h5 {
   border-radius: 20px 0 20px 0;
 }
 
+.project{
+  display: none;
+}
+
 @media (max-width: 720px) {
 
-  .dropdown-item{
+  .judul{
+    margin-top: 130px;
+  }
+
+  .dropdown-item {
     width: 50%;
     border-bottom: 1px solid white;
   }
 
-  .gambar{
+  .gambar {
+    margin-top: 70px;
     width: 75%;
   }
 
-  .navbar3{
+  .navbar3 {
     display: none;
   }
 
-  .navbar1{
+  .navbar1 {
     display: block;
   }
 
-  .berita{
+  .berita {
     margin: 2%;
   }
 
@@ -176,12 +189,13 @@ footer .h5 {
     height: 100%;
     box-shadow: 15px 15px 2px 1px rgb(207, 204, 247);
   }
-  
+
   .card-body {
     background-color: #c2e1ff;
-    border-radius:30px 0 30px 0;
+    border-radius: 30px 0 30px 0;
     display: block;
   }
+
   .text-services {
     margin-top: 100px;
   }
@@ -197,7 +211,7 @@ footer .h5 {
     padding: 40px;
     display: block;
     border-radius: 10px;
-    box-shadow: 15px 15px 2px 1px  rgb(207, 204, 247);
+    box-shadow: 15px 15px 2px 1px rgb(207, 204, 247);
   }
 
   .btn-sl {
@@ -209,12 +223,17 @@ footer .h5 {
     display: block;
     transform: skewY(-15deg);
   }
-  
+
   .slider3 {
     display: block;
   }
+
   .slider2 {
     display: none;
+  }
+
+  .slider5{
+    display: block;
   }
 
   .card-body1 {
@@ -223,12 +242,13 @@ footer .h5 {
   }
 
   .card-about {
-    margin: 20% 12%;
+    margin: 50% 12%;
     transition: .3s;
   }
+
   .card-about:hover {
-    border-radius:30px 0 30px 0;
-    box-shadow: -15px 15px 2px 1px  rgb(207, 204, 247);
+    border-radius: 30px 0 30px 0;
+    box-shadow: -15px 15px 2px 1px rgb(207, 204, 247);
 
   }
 
@@ -239,6 +259,10 @@ footer .h5 {
   .text-footer {
     display: flex;
     flex-direction: column;
+  }
+
+  .project{
+    display: block;
   }
 
   .copyright {
@@ -252,6 +276,7 @@ footer .h5 {
   .perusahaan2 {
     display: none;
   }
+
   .logo-perusahaan2 {
     display: none;
   }
